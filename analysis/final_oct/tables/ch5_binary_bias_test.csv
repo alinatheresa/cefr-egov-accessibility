@@ -1,0 +1,5 @@
+language,n,binary_accuracy,recall_B2C,recall_AB1,true_share_AB1,pred_share_AB1,diff_pp,B2C_predicted_as_AB1,AB1_predicted_as_B2C,mcnemar_exact_p
+German,154,0.9156,0.8906,0.9333,0.5844,0.5909,0.6494,7,6,1.0000
+English,139,0.9424,0.9540,0.9231,0.3741,0.3741,0.0000,4,4,1.0000
+Dutch,120,0.7750,0.6596,0.8493,0.6083,0.6500,4.1667,16,11,0.4421
+All,413,0.8838,0.8636,0.9023,0.5206,0.5351,1.4528,27,21,0.4709

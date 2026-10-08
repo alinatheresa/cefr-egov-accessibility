@@ -1,0 +1,7 @@
+Language,Category,Kept_Valid,Rejected,Total_Candidates,With_Leichte_Sprache
+DE,de_hilfs-problemloesungsdienste,8,0,8,8
+DE,de_lagen,118,1,119,0
+DE,de_leistung,1049,4126,5175,0
+DE,de_rechte_pflichten,81,3,84,0
+
+TOTAL_DE,,1256,,5386,8

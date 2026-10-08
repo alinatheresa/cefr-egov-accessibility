@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-06-24 03:22:57",
+  "seed": 42,
+  "model": "microsoft/mdeberta-v3-base",
+  "per_device_batch": 2,
+  "epochs": 3,
+  "best": {
+    "learning_rate": 2e-05,
+    "effective_batch": 16,
+    "grad_accum": 8,
+    "val_macro_f1": 0.6704675166111432,
+    "val_loss": 0.932399570941925,
+    "seconds": 10808.371132135391
+  },
+  "grid": {
+    "learning_rates": [
+      7e-06,
+      1e-05,
+      2e-05
+    ],
+    "effective_batches": [
+      8,
+      16
+    ]
+  },
+  "data_source": "<repo>/classifier/00_prepare_output/tokenized_packed"
+}

@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Predicted CEFR level by scope}
+\label{tab:cefr-by-scope}
+\begin{tabular}{lrrrrrrr}
+\hline
+ & n & A & B1 & B2 & C & Easier & Harder \\
+\hline
+Citizen areas (A to I) & 4,195 & 22.8 & 21.5 & 16.4 & 39.3 & 44.3 & 55.7 \\
+Business areas (J to Q) & 3,164 & 19.3 & 17.5 & 27.0 & 36.3 & 36.8 & 63.2 \\
+\hline
+All areas & 7,359 & 21.3 & 19.8 & 20.9 & 38.0 & 41.1 & 58.9 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Regression sample (7,359 pages with a CEFR label and a citizen or business area), pooled over the four countries; the same pages as Figure \texttt{fig6\_share\_demanding\_by\_area}. A to C: share of pages per predicted level within the scope (\%). Easier: A or B1; harder: B2 or C (\%).
+\item Scope: citizen = SDGR Annex I areas A to I, business = areas J to Q, assigned by the zero-shot categoriser.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

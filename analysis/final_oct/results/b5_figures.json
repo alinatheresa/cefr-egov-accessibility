@@ -1,0 +1,360 @@
+{
+  "fig1": [
+    {
+      "group": "Germany",
+      "n": 1263,
+      "A": 45.288994457640534,
+      "B1": 1.4251781472684086,
+      "B2": 3.4045922406967537,
+      "C": 49.8812351543943
+    },
+    {
+      "group": "Austria",
+      "n": 3736,
+      "A": 14.266595289079229,
+      "B1": 2.3822269807280514,
+      "B2": 6.343683083511777,
+      "C": 77.00749464668094
+    },
+    {
+      "group": "Netherlands",
+      "n": 2410,
+      "A": 21.49377593360996,
+      "B1": 43.27800829875519,
+      "B2": 32.03319502074689,
+      "C": 3.1950207468879666
+    },
+    {
+      "group": "Ireland",
+      "n": 1588,
+      "A": 12.846347607052897,
+      "B1": 31.801007556675064,
+      "B2": 46.221662468513856,
+      "C": 9.130982367758186
+    },
+    {
+      "group": "All portals",
+      "n": 8997,
+      "A": 20.306768922974324,
+      "B1": 18.39502056240969,
+      "B2": 19.851061464932755,
+      "C": 41.44714904968323
+    }
+  ],
+  "fig2": {
+    "pairs": [
+      {
+        "service": "Product Contact Points",
+        "std_label": "C",
+        "ls_label": "B1",
+        "std_E": 3.6371,
+        "ls_E": 1.8481999999999998,
+        "std_raw_category": "hilfs-problemloesungsdienste",
+        "ls_raw_category": "hilfs-problemloesungsdienste_ls",
+        "change_E": 1.7889000000000004
+      },
+      {
+        "service": "Point of Single Contact Network",
+        "std_label": "C",
+        "ls_label": "B1",
+        "std_E": 3.6856999999999998,
+        "ls_E": 2.0307,
+        "std_raw_category": "hilfs-problemloesungsdienste",
+        "ls_raw_category": "hilfs-problemloesungsdienste_ls",
+        "change_E": 1.6549999999999998
+      },
+      {
+        "service": "Advice Centre for Professional Qualifications",
+        "std_label": "B2",
+        "ls_label": "B1",
+        "std_E": 3.2217,
+        "ls_E": 1.6688999999999998,
+        "std_raw_category": "hilfs-problemloesungsdienste",
+        "ls_raw_category": "hilfs-problemloesungsdienste_ls",
+        "change_E": 1.5528
+      },
+      {
+        "service": "EURES Germany",
+        "std_label": "C",
+        "ls_label": "B1",
+        "std_E": 3.5794,
+        "ls_E": 2.192,
+        "std_raw_category": "hilfs-problemloesungsdienste",
+        "ls_raw_category": "hilfs-problemloesungsdienste_ls",
+        "change_E": 1.3874
+      },
+      {
+        "service": "Equal Treatment Office for EU Workers",
+        "std_label": "B1",
+        "ls_label": "A",
+        "std_E": 2.4489,
+        "ls_E": 1.2829,
+        "std_raw_category": "hilfs-problemloesungsdienste",
+        "ls_raw_category": "hilfs-problemloesungsdienste_ls",
+        "change_E": 1.1660000000000001
+      },
+      {
+        "service": "EU Patients",
+        "std_label": "C",
+        "ls_label": "B1",
+        "std_E": 3.6121,
+        "ls_E": 2.4758999999999998,
+        "std_raw_category": "hilfs-problemloesungsdienste",
+        "ls_raw_category": "hilfs-problemloesungsdienste_ls",
+        "change_E": 1.1362
+      },
+      {
+        "service": "European Consumer Centre",
+        "std_label": "B2",
+        "ls_label": "B1",
+        "std_E": 3.1050000000000004,
+        "ls_E": 2.1817000000000006,
+        "std_raw_category": "hilfs-problemloesungsdienste",
+        "ls_raw_category": "hilfs-problemloesungsdienste_ls",
+        "change_E": 0.9232999999999998
+      },
+      {
+        "service": "Product Contact Point for Construction",
+        "std_label": "C",
+        "ls_label": "B2",
+        "std_E": 3.7376,
+        "ls_E": 2.8528000000000002,
+        "std_raw_category": "hilfs-problemloesungsdienste",
+        "ls_raw_category": "hilfs-problemloesungsdienste_ls",
+        "change_E": 0.8847999999999998
+      }
+    ],
+    "mean_change_E": 1.3117999999999999,
+    "n_pairs_lower_E": 8,
+    "n_pairs_lower_label": 8
+  },
+  "fig3": {
+    "germany": {
+      "n": 1263,
+      "median": 2.5859,
+      "q1": 1.82755,
+      "q3": 3.1654,
+      "mean": 2.506501425178147
+    },
+    "austria": {
+      "n": 3736,
+      "median": 3.4650999999999996,
+      "q1": 3.094125,
+      "q3": 3.6633250000000004,
+      "mean": 3.1588295503211987
+    },
+    "mann_whitney_U": 1112444.0,
+    "mann_whitney_p": 5.622663439306526e-174
+  },
+  "fig4": {
+    "germany": {
+      "n": 1263,
+      "spearman_rho": 0.611829788804173,
+      "p": 1.4372560466461597e-130,
+      "median_tokens": 49.0,
+      "n_running_median_bins": 8
+    },
+    "austria": {
+      "n": 3736,
+      "spearman_rho": 0.424922531712041,
+      "p": 1.057690160946258e-163,
+      "median_tokens": 486.0,
+      "n_running_median_bins": 29
+    }
+  },
+  "fig5": {
+    "germany": {
+      "n": 1263,
+      "median": 2.5859,
+      "share_E_le_2": 0.30403800475059384,
+      "share_E_ge_3": 0.3254156769596199
+    },
+    "austria": {
+      "n": 3736,
+      "median": 3.4650999999999996,
+      "share_E_le_2": 0.1351713062098501,
+      "share_E_ge_3": 0.7711456102783726
+    },
+    "ireland": {
+      "n": 1588,
+      "median": 2.6302,
+      "share_E_le_2": 0.24874055415617127,
+      "share_E_ge_3": 0.24307304785894207
+    }
+  },
+  "fig6": {
+    "overall_share": 0.5890746025275173,
+    "areas": [
+      {
+        "area": "A",
+        "name": "Travel",
+        "scope": "citizen",
+        "n": 574,
+        "n_B2_C": 344,
+        "share": 0.5993031358885017,
+        "lo": 0.5586821660678408,
+        "hi": 0.6386037819371023
+      },
+      {
+        "area": "B",
+        "name": "Work and retirement",
+        "scope": "citizen",
+        "n": 724,
+        "n_B2_C": 371,
+        "share": 0.5124309392265194,
+        "lo": 0.47605199439939205,
+        "hi": 0.548678666078736
+      },
+      {
+        "area": "C",
+        "name": "Vehicles",
+        "scope": "citizen",
+        "n": 501,
+        "n_B2_C": 278,
+        "share": 0.5548902195608783,
+        "lo": 0.5111186795610629,
+        "hi": 0.5978264140698755
+      },
+      {
+        "area": "D",
+        "name": "Residence",
+        "scope": "citizen",
+        "n": 380,
+        "n_B2_C": 277,
+        "share": 0.7289473684210527,
+        "lo": 0.6821291426596433,
+        "hi": 0.7711830152677305
+      },
+      {
+        "area": "E",
+        "name": "Education or traineeship",
+        "scope": "citizen",
+        "n": 467,
+        "n_B2_C": 212,
+        "share": 0.4539614561027837,
+        "lo": 0.40936457116168506,
+        "hi": 0.4993095712817159
+      },
+      {
+        "area": "F",
+        "name": "Healthcare",
+        "scope": "citizen",
+        "n": 254,
+        "n_B2_C": 110,
+        "share": 0.4330708661417323,
+        "lo": 0.37357926245503564,
+        "hi": 0.4945567613034865
+      },
+      {
+        "area": "G",
+        "name": "Citizens' and family rights",
+        "scope": "citizen",
+        "n": 671,
+        "n_B2_C": 429,
+        "share": 0.639344262295082,
+        "lo": 0.602312988700828,
+        "hi": 0.6747891329245804
+      },
+      {
+        "area": "H",
+        "name": "Consumer rights",
+        "scope": "citizen",
+        "n": 406,
+        "n_B2_C": 209,
+        "share": 0.5147783251231527,
+        "lo": 0.4662535368678037,
+        "hi": 0.5630260778264481
+      },
+      {
+        "area": "I",
+        "name": "Protection of personal data",
+        "scope": "citizen",
+        "n": 218,
+        "n_B2_C": 105,
+        "share": 0.481651376146789,
+        "lo": 0.4162170725925599,
+        "hi": 0.5477211378640071
+      },
+      {
+        "area": "J",
+        "name": "Starting, running, closing a business",
+        "scope": "business",
+        "n": 524,
+        "n_B2_C": 381,
+        "share": 0.7270992366412213,
+        "lo": 0.6874095110930587,
+        "hi": 0.763483453115817
+      },
+      {
+        "area": "K",
+        "name": "Employees (employer side)",
+        "scope": "business",
+        "n": 47,
+        "n_B2_C": 38,
+        "share": 0.8085106382978723,
+        "lo": 0.6745599542033822,
+        "hi": 0.8958406730145774
+      },
+      {
+        "area": "L",
+        "name": "Taxes",
+        "scope": "business",
+        "n": 1359,
+        "n_B2_C": 845,
+        "share": 0.6217807211184695,
+        "lo": 0.5956888055156682,
+        "hi": 0.6471861069385096
+      },
+      {
+        "area": "M",
+        "name": "Goods",
+        "scope": "business",
+        "n": 604,
+        "n_B2_C": 341,
+        "share": 0.5645695364238411,
+        "lo": 0.5247434906440893,
+        "hi": 0.6035794443385492
+      },
+      {
+        "area": "N",
+        "name": "Services and qualifications",
+        "scope": "business",
+        "n": 233,
+        "n_B2_C": 127,
+        "share": 0.5450643776824035,
+        "lo": 0.48091043083394747,
+        "hi": 0.6077564778422845
+      },
+      {
+        "area": "O",
+        "name": "Funding a business",
+        "scope": "business",
+        "n": 79,
+        "n_B2_C": 50,
+        "share": 0.6329113924050633,
+        "lo": 0.5227691853982361,
+        "hi": 0.730727074795025
+      },
+      {
+        "area": "P",
+        "name": "Public contracts",
+        "scope": "business",
+        "n": 194,
+        "n_B2_C": 150,
+        "share": 0.7731958762886598,
+        "lo": 0.7092981291157209,
+        "hi": 0.8264844142998581
+      },
+      {
+        "area": "Q",
+        "name": "Health and safety at work",
+        "scope": "business",
+        "n": 124,
+        "n_B2_C": 68,
+        "share": 0.5483870967741935,
+        "lo": 0.46065500744902865,
+        "hi": 0.6332112555825186
+      }
+    ]
+  }
+}

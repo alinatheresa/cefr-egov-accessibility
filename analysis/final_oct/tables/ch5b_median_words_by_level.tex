@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Median words per page by predicted CEFR level}
+\label{tab:words-by-level}
+\begin{tabular}{lrrrr}
+\hline
+ & A & B1 & B2 & C \\
+\hline
+Germany & 22 (572) & 44 (18) & 32 (43) & 30 (630) \\
+Austria & 23 (533) & 66 (89) & 157 (237) & 334 (2,877) \\
+Netherlands & 36.5 (518) & 286 (1,043) & 372.5 (772) & 329 (77) \\
+Ireland & 46 (204) & 118 (505) & 310 (734) & 308 (145) \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Median words per page for each predicted level, number of pages in parentheses. All 8,997 pages with a CEFR label. Same numbers as the lower panel of \texttt{sens\_descriptives.tex}.
+\item Words: \texttt{word\_count} in \texttt{combined\_<country>.csv} (matches of \texttt{\textbackslash w+}).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

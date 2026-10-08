@@ -1,0 +1,103 @@
+{
+  "warnings": {
+    "M1": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M2a": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M2b": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M3a": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M3b": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M4": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M1_all": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M3a_ii": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M3b_ii": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M3a_iii": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M3b_iii": {
+      "warnings": [],
+      "converged": true,
+      "large_coef_or_se_terms": []
+    },
+    "M3a_ordinal": {
+      "warnings": [],
+      "converged": true
+    },
+    "M3b_ordinal": {
+      "warnings": [],
+      "converged": true
+    }
+  },
+  "small_cells_country_area_lt10": [
+    [
+      "Germany",
+      "K",
+      7
+    ],
+    [
+      "Austria",
+      "O",
+      6
+    ],
+    [
+      "Netherlands",
+      "K",
+      8
+    ],
+    [
+      "Netherlands",
+      "O",
+      3
+    ],
+    [
+      "Ireland",
+      "K",
+      2
+    ]
+  ],
+  "small_cells_country_scope_lt10": [],
+  "small_cells_country_scope_outcome_lt10": [],
+  "samples": {
+    "main": 7359,
+    "all_labelled": 8997,
+    "unclear_kept": 8391,
+    "unclear_kept_no_rule": 7642,
+    "rule_pages_labelled": 749
+  }
+}

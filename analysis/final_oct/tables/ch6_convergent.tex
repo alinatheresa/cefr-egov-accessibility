@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{threeparttable}
+\caption{Convergent validity: correlation of the classifier output with sentence length and Flesch reading ease}
+\label{tab:convergent}
+\begin{tabular}{llrrrrr}
+\hline
+Language & Sample & n & Level, sentence length & Level, Flesch & E, sentence length & E, Flesch \\
+\hline
+German & All pages & 4,999 & 0.19 ($<$0.001) & 0.18 ($<$0.001) & 0.26 ($<$0.001) & 0.08 ($<$0.001) \\
+ & At least 3 sentences & 3,489 & 0.27 ($<$0.001) & -0.03 (0.073) & 0.52 ($<$0.001) & -0.32 ($<$0.001) \\
+ & Without de\_leistung & 3,950 & 0.34 ($<$0.001) & 0.19 ($<$0.001) & 0.53 ($<$0.001) & -0.07 ($<$0.001) \\
+\hline
+Dutch & All pages & 2,410 & 0.66 ($<$0.001) & -0.23 ($<$0.001) & 0.70 ($<$0.001) & -0.28 ($<$0.001) \\
+ & At least 3 sentences & 2,168 & 0.62 ($<$0.001) & -0.51 ($<$0.001) & 0.67 ($<$0.001) & -0.57 ($<$0.001) \\
+\hline
+English & All pages & 1,588 & 0.53 ($<$0.001) & -0.23 ($<$0.001) & 0.55 ($<$0.001) & -0.27 ($<$0.001) \\
+ & At least 3 sentences & 1,497 & 0.53 ($<$0.001) & -0.24 ($<$0.001) & 0.55 ($<$0.001) & -0.28 ($<$0.001) \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Spearman rank correlation with p in parentheses. Level: predicted CEFR level coded A = 1, B1 = 2, B2 = 3, C = 4. E: expected CEFR index, 1 $\times$ pA + 2 $\times$ pB1 + 3 $\times$ pB2 + 4 $\times$ pC. Convergence means a positive correlation with sentence length and a negative one with the Flesch score (higher Flesch = easier).
+\item Sentence length: words per sentence. Flesch variants: Amstad (German), Douma (Dutch), Flesch (English); syllables use a vowel-cluster heuristic. Per-page values from \texttt{convergent\_validity\_flesch.py}. German = Germany and Austria; Dutch = Netherlands; English = Ireland.
+\item At least 3 sentences: pages with fewer detected sentences removed (German 1,510, Dutch 242, English 91); 25 de\_leistung pages remain. Without de\_leistung: the 1,049 German service pages (one- to three-sentence teasers) removed.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

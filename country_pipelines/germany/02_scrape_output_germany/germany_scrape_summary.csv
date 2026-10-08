@@ -1,0 +1,8 @@
+category,attempted,success,failures,total_sentences,total_words,avg_sentences_per_url,median_sentences_per_url,avg_words_per_url,median_words_per_url,avg_words_per_sentence
+hilfs-problemloesungsdienste,8,8,0,64,982,8.000,7.500,122.750,122.000,15.344
+hilfs-problemloesungsdienste_ls,8,8,0,236,1871,29.500,27.000,233.875,185.500,7.928
+lagen,118,118,0,399,5067,3.381,3.000,42.941,43.000,12.699
+leistung,1049,1049,0,1446,25434,1.378,1.000,24.246,24.000,17.589
+rechte_pflichten,81,81,0,3433,47806,42.383,31.000,590.198,364.000,13.925
+
+ALL,1264,1264,0,5578,81160,4.413,1.000,64.209,26.000,14.550

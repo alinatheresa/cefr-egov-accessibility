@@ -1,0 +1,4 @@
+language,n,errors,errors_1,errors_2plus,within_one,top_confusion
+German,154,43,41,2,0.9870,B1 as A (14)
+English,139,30,30,0,1.0000,C as B2 (10)
+Dutch,120,49,46,3,0.9750,B2 as B1 (14)

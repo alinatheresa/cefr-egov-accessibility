@@ -1,0 +1,71 @@
+{
+  "seed": 42,
+  "per_device_batch": 2,
+  "learning_rate": 2e-05,
+  "grad_accum": 8,
+  "effective_batch": 16,
+  "search": {
+    "schedulers": [
+      "linear"
+    ],
+    "balanced_options": [
+      false
+    ],
+    "selection_criterion": "highest val macro-F1 (load_best_model_at_end)",
+    "winner": {
+      "scheduler": "linear",
+      "balanced": false,
+      "best_epoch_by_f1": 3
+    }
+  },
+  "labels": [
+    "A",
+    "B1",
+    "B2",
+    "C"
+  ],
+  "model_name": "microsoft/mdeberta-v3-base",
+  "training_config": {
+    "loss": "weighted_CE(label_smoothing=0.1) + EMD",
+    "label_smoothing": 0.1,
+    "emd_weight": 0.3,
+    "weight_decay": 0.05,
+    "warmup_ratio": 0.1,
+    "lr_scheduler_type": "linear",
+    "max_epochs": 8,
+    "early_stopping": true,
+    "early_stopping_patience": 2,
+    "metric_for_best_model": "eval_val_macro_f1",
+    "class_weight_scheme": "window-level inverse frequency (total / count)",
+    "class_weights": {
+      "A": 6.501457691192627,
+      "B1": 3.757371425628662,
+      "B2": 3.386484384536743,
+      "C": 3.5118110179901123
+    }
+  },
+  "dataset": {
+    "source": "<repo>/classifier/00_prepare_output/tokenized_packed",
+    "splits_sha256": "9f5cf0785c4e271f806d4327d04ecfabae260980253c5661890c94c097394e8d"
+  },
+  "paths": {
+    "run_dir": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925",
+    "model_dir": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/mdeberta_cefr_multi",
+    "training_log_csv": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/training_log.csv",
+    "loss_curve": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/learning_curve_loss.png",
+    "val_f1_curve": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/learning_curve_val_f1.png",
+    "cm_val_window": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/confusion_matrix_val_window.png",
+    "cm_test_window": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/confusion_matrix_test_window.png",
+    "cm_val_doc": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/confusion_matrix_val_doc.png",
+    "cm_test_doc": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/confusion_matrix_test_doc.png",
+    "metrics_json": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/metrics.json",
+    "selection_summary": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/selection_summary.json"
+  },
+  "versions": {
+    "python": "3.11.15 (main, Mar 11 2026, 17:14:47) [Clang 20.1.8 ]",
+    "torch": "2.12.0",
+    "transformers": "4.57.6",
+    "datasets": "4.8.5"
+  },
+  "timestamp": "2026-08-18T05:08:02"
+}

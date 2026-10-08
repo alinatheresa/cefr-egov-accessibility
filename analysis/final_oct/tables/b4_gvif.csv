@@ -1,0 +1,5 @@
+model,factor,df,GVIF,GVIF_1_2df
+M3a,"C(country, Treatment('germany'))",3,1.064,1.010
+M3a,"C(scope, Treatment('citizen'))",1,1.064,1.032
+M3b,"C(country, Treatment('germany'))",3,1.195,1.030
+M3b,"C(area, Treatment('B'))",16,1.195,1.006

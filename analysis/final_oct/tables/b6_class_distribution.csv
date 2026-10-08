@@ -1,0 +1,13 @@
+language,split,A,B1,B2,C,total
+German,train,387,337,326,183,1233
+German,validation,49,42,41,23,155
+German,test,48,42,41,23,154
+English,train,149,275,331,356,1111
+English,validation,19,35,41,44,139
+English,test,18,34,42,45,139
+Dutch,train,149,433,304,70,956
+Dutch,validation,19,54,38,8,119
+Dutch,test,18,55,38,9,120
+All,train,685,1045,961,609,3300
+All,validation,87,131,120,75,413
+All,test,84,131,121,77,413

@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{threeparttable}
+\caption{Corpus funnel by country (steps 00 to 02)}
+\label{tab:dc_corpus_funnel}
+\begin{tabular}{lrrrrrrr}
+\hline
+ & Discovered & Path-filtered & Validated in 01 & Rejected & Kept & LS added & Final corpus \\
+\hline
+Germany & 5,386 & 0 & 5,386 & 4,130 & 1,256 & 8 & 1,264 \\
+Austria & 13,388 & 9,480 & 3,908 & 172 & 3,736 & 0 & 3,736 \\
+Netherlands & 3,629 & 268 & 3,361 & 951 & 2,410 & 0 & 2,410 \\
+Ireland & 95,195 & 93,364 & 1,831 & 243 & 1,588 & 0 & 1,588 \\
+\hline
+Total & 117,598 & 103,112 & 14,486 & 5,496 & 8,990 & 8 & 8,998 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Discovered: unique URLs of the language version used (Germany DE, Austria DE, Netherlands NL, Ireland EN). Germany's sitemaps also list 5,386 English URLs; Ireland's sitemap lists 19,384 Irish-language URLs and 114,580 entries in total. These were never fetched.
+\item Path-filtered: URLs in categories outside the step 01 include list. Validated in 01: URLs fetched and checked in step 01. Rejected: URLs that failed a step 01 check (reasons in Table~\ref{tab:dc_rejection_reasons}).
+\item LS added: Leichte Sprache pages linked from the eight German hilfs-problemloesungsdienste pages. They are not in the sitemap and were not run through the step 01 checks.
+\item Step 02 had no scraping failures in any country. One German page (lagen/1150000/sublagen/1150400) is in the final corpus with no extracted text and has no CEFR label, so the analysed corpus has 8,997 pages.
+\item All collection steps ran on 25 March 2026 (file times of the original outputs; see the data collection report).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

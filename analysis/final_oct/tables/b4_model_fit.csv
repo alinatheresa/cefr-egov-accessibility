@@ -1,0 +1,12 @@
+model,sample,role,N,k,loglik,ll_null,mcfadden_r2,aic,bic,converged,n_warnings
+M1,"main (N=7,359)",primary grid,7359,4,-4475.2127,-4983.4676,0.1020,8958.4254,8986.0402,True,0
+M2a,"main (N=7,359)",primary grid,7359,2,-4962.1528,-4983.4676,0.0043,9928.3056,9942.1130,True,0
+M2b,"main (N=7,359)",primary grid,7359,17,-4867.4364,-4983.4676,0.0233,9768.8728,9886.2353,True,0
+M3a,"main (N=7,359)",primary grid,7359,5,-4406.5228,-4983.4676,0.1158,8823.0456,8857.5640,True,0
+M3b,"main (N=7,359)",primary grid,7359,20,-4347.3751,-4983.4676,0.1276,8734.7502,8872.8237,True,0
+M4,"main (N=7,359)",primary grid,7359,8,-4389.4240,-4983.4676,0.1192,8794.8479,8850.0773,True,0
+M1_all,"all labelled (N=8,997)",descriptive,8997,4,-5210.2633,-6004.5568,0.1323,10428.5266,10456.9452,True,0
+M3a_ii,UNCLEAR kept,sensitivity ii,8391,6,-4666.4845,-5551.3687,0.1594,9344.9690,9387.1785,True,0
+M3b_ii,UNCLEAR kept,sensitivity ii,8391,21,-4608.1820,-5551.3687,0.1699,9258.3640,9406.0972,True,0
+M3a_iii,"UNCLEAR kept, no rule pages",sensitivity iii,7642,6,-4577.2227,-5177.5171,0.1159,9166.4454,9208.0939,True,0
+M3b_iii,"UNCLEAR kept, no rule pages",sensitivity iii,7642,21,-4517.8625,-5177.5171,0.1274,9077.7251,9223.4948,True,0

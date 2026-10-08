@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{threeparttable}
+\caption{Country and scope effects with and without a control for page length}
+\label{tab:length-control}
+\begin{tabular}{lrrrr}
+\hline
+ & A. Main OR [95\% CI] & p & With log(words) OR [95\% CI] & p \\
+\hline
+Austria & 4.39 [3.77, 5.12] & $<$0.001 & 0.54 [0.44, 0.66] & $<$0.001 \\
+Netherlands & 0.54 [0.46, 0.62] & $<$0.001 & 0.01 [0.00, 0.01] & $<$0.001 \\
+Ireland & 1.25 [1.07, 1.46] & 0.005 & 0.03 [0.03, 0.04] & $<$0.001 \\
+Business & 1.87 [1.68, 2.08] & $<$0.001 & 2.20 [1.93, 2.50] & $<$0.001 \\
+\hline
+log(words) &  &  & 6.46 [5.85, 7.13] & $<$0.001 \\
+\hline
+N & 7,359 &  & 7,359 &  \\
+McFadden $R^2$ & 0.116 &  & 0.369 &  \\
+AIC & 8,823.0 &  & 6,296.7 &  \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Binary logit of harder (predicted B2 or C, 1) versus easier (predicted A or B1, 0), M3a (country + scope; reference Germany, citizen), estimation sample of the main analysis. Specification A equals Table~\ref{tab:regression-main}; the second model adds the natural log of the page's word count. Wald 95\% confidence intervals.
+\item log(words): odds ratio per one-unit increase in ln(words), i.e. per factor e (2.72) in length; per doubling of length the odds ratio is 3.65 [3.40, 3.90].
+\item Words: \texttt{word\_count} in \texttt{combined\_<country>.csv} (matches of \texttt{\textbackslash w+}).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

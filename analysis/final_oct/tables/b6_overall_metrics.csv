@@ -1,0 +1,5 @@
+level,split,accuracy,macro_f1,weighted_f1,qwk,within_one
+Document,Test,0.7046,0.7112,0.7027,0.8408,0.9879
+Document,Validation,0.6852,0.6964,0.6823,0.8358,0.9879
+Window,Test,0.7292,0.7370,0.7295,0.8614,0.9892
+Window,Validation,0.7108,0.7125,0.7085,0.8582,0.9895

@@ -1,0 +1,7 @@
+language,dataset,n_raw,n_plus,n_clean,n_removed_na,n_final
+German,merlin_de,1033,0,1033,0,1033
+German,elg_cefr_de,509,0,509,0,509
+English,elg_cefr_en,712,114,712,0,706
+English,icle500_en,495,204,488,7,488
+English,cambridge_exams_en,331,0,331,0,325
+Dutch,elg_cefr_nl,3596,1505,3596,0,1195

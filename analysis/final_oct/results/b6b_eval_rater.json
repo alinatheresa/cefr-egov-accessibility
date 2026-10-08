@@ -1,0 +1,111 @@
+{
+  "checks": {
+    "validation": {
+      "doc_accuracy": 0.6852300242130751,
+      "doc_accuracy_metrics_json": 0.6852300242130751,
+      "doc_macro_f1": 0.6964333446391227,
+      "doc_macro_f1_metrics_json": 0.6964333446391221,
+      "win_accuracy": 0.710801393728223,
+      "win_accuracy_metrics_json": 0.710801393728223,
+      "win_per_lang_f1": {
+        "de": 0.7149995111978871,
+        "en": 0.7170719351570416,
+        "nl": 0.5569541113019374
+      },
+      "win_per_lang_f1_metrics_json": {
+        "de": 0.7149995111978871,
+        "en": 0.717071935157041,
+        "nl": 0.5569541113019371
+      },
+      "doc_per_lang_f1": {
+        "de": 0.713170242905204,
+        "en": 0.7054079441760601,
+        "nl": 0.5602799997536839
+      },
+      "doc_per_lang_f1_metrics_json": {
+        "de": 0.713170242905204,
+        "en": 0.70540794417606,
+        "nl": 0.560279999753683
+      }
+    },
+    "test": {
+      "doc_accuracy": 0.7046004842615012,
+      "doc_accuracy_metrics_json": 0.704600484261501,
+      "doc_macro_f1": 0.7112140208405064,
+      "doc_macro_f1_metrics_json": 0.711214020840506,
+      "win_accuracy": 0.7292418772563177,
+      "win_accuracy_metrics_json": 0.7292418772563171,
+      "win_per_lang_f1": {
+        "de": 0.6926444842880779,
+        "en": 0.7994864612511672,
+        "nl": 0.5392414153283719
+      },
+      "win_per_lang_f1_metrics_json": {
+        "de": 0.692644484288077,
+        "en": 0.7994864612511671,
+        "nl": 0.539241415328371
+      },
+      "doc_per_lang_f1": {
+        "de": 0.6967421421067209,
+        "en": 0.7972352383622359,
+        "nl": 0.5392414153283719
+      },
+      "doc_per_lang_f1_metrics_json": {
+        "de": 0.69674214210672,
+        "en": 0.7972352383622351,
+        "nl": 0.539241415328371
+      }
+    }
+  },
+  "dutch_rater_check": {
+    "n_nl_test_docs": 120,
+    "n_errors": 49,
+    "n_matched": 48,
+    "n_not_found": 1,
+    "n_rater_agrees": 27,
+    "share_rater_agrees": 0.5625,
+    "by_distance": {
+      "1": {
+        "n": 45,
+        "agree": 25
+      },
+      "2": {
+        "n": 3,
+        "agree": 2
+      }
+    },
+    "rater_count_distribution": {
+      "3": 48
+    },
+    "gold_in_rater_labels": 48
+  },
+  "errors_doc": [
+    {
+      "language": "German",
+      "n": 154,
+      "errors": 43,
+      "errors_1": 41,
+      "errors_2plus": 2,
+      "within_one": 0.987012987012987,
+      "top_confusion": "B1 as A (14)"
+    },
+    {
+      "language": "English",
+      "n": 139,
+      "errors": 30,
+      "errors_1": 30,
+      "errors_2plus": 0,
+      "within_one": 1.0,
+      "top_confusion": "C as B2 (10)"
+    },
+    {
+      "language": "Dutch",
+      "n": 120,
+      "errors": 49,
+      "errors_1": 46,
+      "errors_2plus": 3,
+      "within_one": 0.975,
+      "top_confusion": "B2 as B1 (14)"
+    }
+  ]
+}

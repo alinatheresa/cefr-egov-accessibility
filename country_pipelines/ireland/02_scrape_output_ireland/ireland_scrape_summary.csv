@@ -1,0 +1,6 @@
+category,attempted,success,failures,total_sentences,total_words,avg_sentences_per_url,median_sentences_per_url,avg_words_per_url,median_words_per_url,avg_words_per_sentence
+campaigns,252,252,0,2629,57250,10.433,7.000,227.183,147.500,21.776
+policies,56,56,0,1246,28752,22.250,11.000,513.429,297.500,22.194
+services,1280,1280,0,19258,414199,15.045,10.000,323.593,210.500,21.623
+
+ALL,1588,1588,0,23133,500201,14.567,9.000,314.988,196.500,21.623

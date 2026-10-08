@@ -1,0 +1,203 @@
+{
+  "check_against_existing": {
+    "n_new": 8997,
+    "n_old": 8997,
+    "n_matched": 8997,
+    "max_abs_diff_flesch": 7.105427357601002e-15,
+    "max_abs_diff_sentlen": 3.552713678800501e-15,
+    "label_mismatch": 0
+  },
+  "summary": [
+    {
+      "language": "german",
+      "cefr": "A",
+      "n": 1105,
+      "sentlen_median": 13.0,
+      "sentlen_q1": 10.0,
+      "sentlen_q3": 17.0,
+      "flesch_median": 24.739130434782624,
+      "flesch_q1": 9.5,
+      "flesch_q3": 37.67959183673469
+    },
+    {
+      "language": "german",
+      "cefr": "B1",
+      "n": 107,
+      "sentlen_median": 12.0,
+      "sentlen_q1": 9.75,
+      "sentlen_q3": 15.45,
+      "flesch_median": 35.04594594594593,
+      "flesch_q1": 22.55181924882629,
+      "flesch_q3": 47.871052631578955
+    },
+    {
+      "language": "german",
+      "cefr": "B2",
+      "n": 280,
+      "sentlen_median": 12.666666666666666,
+      "sentlen_q1": 11.095238095238095,
+      "sentlen_q3": 15.0,
+      "flesch_median": 40.5354247104247,
+      "flesch_q1": 29.39231443600235,
+      "flesch_q3": 46.33341348324845
+    },
+    {
+      "language": "german",
+      "cefr": "C",
+      "n": 3507,
+      "sentlen_median": 14.304347826086957,
+      "sentlen_q1": 12.5,
+      "sentlen_q3": 17.27842377260982,
+      "flesch_median": 36.07672811059908,
+      "flesch_q1": 25.36397058823529,
+      "flesch_q3": 43.02447234543768
+    },
+    {
+      "language": "dutch",
+      "cefr": "A",
+      "n": 518,
+      "sentlen_median": 9.436507936507937,
+      "sentlen_q1": 1.0,
+      "sentlen_q3": 11.333333333333334,
+      "flesch_median": 47.25999999999999,
+      "flesch_q1": -25.090000000000003,
+      "flesch_q3": 65.29298194921819
+    },
+    {
+      "language": "dutch",
+      "cefr": "B1",
+      "n": 1043,
+      "sentlen_median": 11.6,
+      "sentlen_q1": 10.538461538461538,
+      "sentlen_q3": 13.0,
+      "flesch_median": 53.70326268823203,
+      "flesch_q1": 46.405475242788384,
+      "flesch_q3": 62.85555227911796
+    },
+    {
+      "language": "dutch",
+      "cefr": "B2",
+      "n": 772,
+      "sentlen_median": 16.023809523809526,
+      "sentlen_q1": 13.11111111111111,
+      "sentlen_q3": 18.0,
+      "flesch_median": 42.78574650912998,
+      "flesch_q1": 36.7500796383934,
+      "flesch_q3": 48.79140114607891
+    },
+    {
+      "language": "dutch",
+      "cefr": "C",
+      "n": 77,
+      "sentlen_median": 18.46511627906977,
+      "sentlen_q1": 16.875,
+      "sentlen_q3": 20.214285714285715,
+      "flesch_median": 37.92964095744682,
+      "flesch_q1": 28.004285714285743,
+      "flesch_q3": 44.915186412593215
+    },
+    {
+      "language": "english",
+      "cefr": "A",
+      "n": 204,
+      "sentlen_median": 14.5,
+      "sentlen_q1": 12.333333333333334,
+      "sentlen_q3": 17.5,
+      "flesch_median": 39.26982142857145,
+      "flesch_q1": 29.46391369047621,
+      "flesch_q3": 46.54414772727274
+    },
+    {
+      "language": "english",
+      "cefr": "B1",
+      "n": 505,
+      "sentlen_median": 18.166666666666668,
+      "sentlen_q1": 15.666666666666666,
+      "sentlen_q3": 20.5,
+      "flesch_median": 37.500288461538474,
+      "flesch_q1": 28.382482876712345,
+      "flesch_q3": 47.82766666666666
+    },
+    {
+      "language": "english",
+      "cefr": "B2",
+      "n": 734,
+      "sentlen_median": 20.905869324473976,
+      "sentlen_q1": 18.39423076923077,
+      "sentlen_q3": 23.517045454545453,
+      "flesch_median": 35.076502943485096,
+      "flesch_q1": 26.877295454545482,
+      "flesch_q3": 42.3808243902673
+    },
+    {
+      "language": "english",
+      "cefr": "C",
+      "n": 145,
+      "sentlen_median": 24.270833333333332,
+      "sentlen_q1": 22.166666666666668,
+      "sentlen_q3": 28.454545454545453,
+      "flesch_median": 24.33945863746962,
+      "flesch_q1": 17.12240566037738,
+      "flesch_q3": 33.2606156716418
+    }
+  ],
+  "spearman": [
+    {
+      "language": "german",
+      "measure": "mean_sentence_length_words",
+      "n": 4999,
+      "rho": 0.18551368931844373,
+      "p": 6.032598922024956e-40
+    },
+    {
+      "language": "german",
+      "measure": "flesch",
+      "n": 4999,
+      "rho": 0.18034145800749937,
+      "p": 8.261078105724241e-38
+    },
+    {
+      "language": "dutch",
+      "measure": "mean_sentence_length_words",
+      "n": 2410,
+      "rho": 0.6613833186996292,
+      "p": 4.02650538753449e-303
+    },
+    {
+      "language": "dutch",
+      "measure": "flesch",
+      "n": 2410,
+      "rho": -0.22764655178625176,
+      "p": 1.0603575889457573e-29
+    },
+    {
+      "language": "english",
+      "measure": "mean_sentence_length_words",
+      "n": 1588,
+      "rho": 0.5255787621664562,
+      "p": 1.7465558639572936e-113
+    },
+    {
+      "language": "english",
+      "measure": "flesch",
+      "n": 1588,
+      "rho": -0.22959408375709636,
+      "p": 1.9306608778256633e-20
+    }
+  ],
+  "copied_figures": {
+    "clf_learning_curve_loss.png": "classifier/02_train_output/runs/cefr_20260817_231925/learning_curve_loss.png",
+    "clf_learning_curve_val_f1.png": "classifier/02_train_output/runs/cefr_20260817_231925/learning_curve_val_f1.png",
+    "clf_confusion_matrix_test_doc.png": "classifier/02_train_output/runs/cefr_20260817_231925/confusion_matrix_test_doc.png",
+    "clf_confusion_matrix_val_doc.png": "classifier/02_train_output/runs/cefr_20260817_231925/confusion_matrix_val_doc.png",
+    "clf_confusion_matrix_test_window.png": "classifier/02_train_output/runs/cefr_20260817_231925/confusion_matrix_test_window.png",
+    "clf_confusion_matrix_val_window.png": "classifier/02_train_output/runs/cefr_20260817_231925/confusion_matrix_val_window.png",
+    "clf_confusion_matrix_test_window_de.png": "classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0/confusion_matrix_test_de.png",
+    "clf_confusion_matrix_test_window_en.png": "classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0/confusion_matrix_test_en.png",
+    "clf_confusion_matrix_test_window_nl.png": "classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0/confusion_matrix_test_nl.png",
+    "clf_confusion_matrix_val_window_de.png": "classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0/confusion_matrix_val_de.png",
+    "clf_confusion_matrix_val_window_en.png": "classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0/confusion_matrix_val_en.png",
+    "clf_confusion_matrix_val_window_nl.png": "classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0/confusion_matrix_val_nl.png"
+  },
+  "final_model_equals_trial_model": true
+}

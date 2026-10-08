@@ -1,0 +1,30 @@
+model,term,chi2,df,p
+M3a,Omnibus,2800.83,8,0
+M3a,Country,2715.64,6,0
+M3a,Scope,21.5977,2,2.04225e-05
+M3a,Austria,69.2248,2,9.29011e-16
+M3a,Netherlands,1593.13,2,0
+M3a,Ireland,1179.98,2,5.90907e-257
+M3a,Business,21.5977,2,2.04225e-05
+M3b,Omnibus,2904.95,38,0
+M3b,Country,2642.37,6,0
+M3b,Area,83.7782,32,1.61163e-06
+M3b,Austria,62.1674,2,3.16614e-14
+M3b,Netherlands,1577.01,2,0
+M3b,Ireland,1151.49,2,9.07533e-251
+M3b,A: Travel,16.3272,2,0.00028484
+M3b,C: Vehicles,0.458486,2,0.795135
+M3b,D: Residence,3.69489,2,0.157639
+M3b,E: Education or traineeship,2.7126,2,0.257612
+M3b,F: Healthcare,2.27389,2,0.320798
+M3b,G: Citizens' and family rights,4.71543,2,0.0946362
+M3b,H: Consumer rights,0.0516427,2,0.974509
+M3b,I: Protection of personal data,2.31949,2,0.313565
+M3b,"J: Starting, running, closing a business",3.26018,2,0.195912
+M3b,K: Employees (employer side),5.44483,2,0.0657158
+M3b,L: Taxes,2.17727,2,0.336675
+M3b,M: Goods,1.54824,2,0.46111
+M3b,N: Services and qualifications,0.317677,2,0.853134
+M3b,O: Funding a business,1.15974,2,0.55997
+M3b,P: Public contracts,7.76501,2,0.0205992
+M3b,Q: Health and safety at work,5.99864,2,0.0498209

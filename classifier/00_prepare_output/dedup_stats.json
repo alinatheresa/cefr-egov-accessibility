@@ -1,0 +1,81 @@
+{
+  "per_dataset": {
+    "merlin_de": {
+      "n_raw": 1033,
+      "n_plus": 0,
+      "n_clean": 1033,
+      "n_removed_na": 0,
+      "n_final": 1033
+    },
+    "elg_cefr_de": {
+      "n_raw": 509,
+      "n_plus": 0,
+      "n_clean": 509,
+      "n_removed_na": 0,
+      "n_final": 509
+    },
+    "elg_cefr_en": {
+      "n_raw": 712,
+      "n_plus": 114,
+      "n_clean": 712,
+      "n_removed_na": 0,
+      "n_final": 706
+    },
+    "icle500_en": {
+      "n_raw": 495,
+      "n_plus": 204,
+      "n_clean": 488,
+      "n_removed_na": 7,
+      "n_final": 488
+    },
+    "cambridge_exams_en": {
+      "n_raw": 331,
+      "n_plus": 0,
+      "n_clean": 331,
+      "n_removed_na": 0,
+      "n_final": 325
+    },
+    "elg_cefr_nl": {
+      "n_raw": 3596,
+      "n_plus": 1505,
+      "n_clean": 3596,
+      "n_removed_na": 0,
+      "n_final": 1195
+    }
+  },
+  "en_within_dups": {
+    "elg_cefr_en": 6,
+    "icle500_en": 0,
+    "cambridge_exams_en": 6
+  },
+  "en_cross_dataset_dups": 130,
+  "en_pairwise_overlaps": {
+    "elg_cefr_en+icle500_en": 0,
+    "elg_cefr_en+cambridge_exams_en": 130,
+    "icle500_en+cambridge_exams_en": 0,
+    "all_three": 0
+  },
+  "rater_agreement": {
+    "elg_cefr_nl": {
+      "n_texts": 1195,
+      "total_rows": 3596,
+      "apart": {
+        "0": 290,
+        "1": 684,
+        "2": 212,
+        "3": 9
+      },
+      "rater_dist": {
+        "2": 1,
+        "3": 1190,
+        "6": 4
+      }
+    }
+  },
+  "agg_stats": {
+    "rows_in": 6669,
+    "rows_out": 4126,
+    "unique_keys": 4126,
+    "dropped_full_spread": 0
+  }
+}

@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+\centering
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{threeparttable}
+\caption{Robustness of the country and scope effects (M3a)}
+\label{tab:robustness-overview}
+\begin{tabular}{lrrrrr}
+\hline
+ & N & Austria & Netherlands & Ireland & Business \\
+\hline
+Main specification (M3a) & 7,359 & 4.39 [3.77, 5.12]* & 0.54 [0.46, 0.62]* & 1.25 [1.07, 1.46]* & 1.87 [1.68, 2.08]* \\
+\hline
+UNCLEAR as own scope & 8,391 & 4.77 [4.10, 5.56]* & 0.50 [0.43, 0.58]* & 1.24 [1.07, 1.45]* & 1.92 [1.72, 2.13]* \\
+\quad without template pages & 7,642 & 4.28 [3.68, 4.98]* & 0.53 [0.46, 0.61]* & 1.27 [1.09, 1.49]* & 1.86 [1.67, 2.07]* \\
+\hline
+S1. Under 50 words dropped & 5,406 & 2.67 [1.38, 5.17]*$^\dagger$ & 0.06 [0.03, 0.10]*$^\dagger$ & 0.13 [0.07, 0.24]*$^\dagger$ & 2.39 [2.07, 2.76]* \\
+S2. German leistung dropped & 6,314 & 1.09 [0.76, 1.57] & 0.13 [0.09, 0.19]* & 0.31 [0.21, 0.44]* & 1.98 [1.76, 2.23]* \\
+S3. Dutch news, documents dropped & 6,614 & 4.31 [3.69, 5.02]* & 0.18 [0.15, 0.22]* & 1.25 [1.07, 1.46]* & 1.78 [1.58, 2.01]* \\
+S4. S1 and S3 & 4,769 & 2.68 [1.38, 5.18]*$^\dagger$ & 0.017 [0.009, 0.033]*$^\dagger$ & 0.13 [0.07, 0.24]*$^\dagger$ & 2.45 [2.06, 2.92]* \\
+\hline
+Length control, + log(words) & 7,359 & 0.54 [0.44, 0.66]* & 0.007 [0.005, 0.009]* & 0.033 [0.025, 0.043]* & 2.20 [1.93, 2.50]* \\
+Ordinal logit & 7,359 & 6.57 [5.62, 7.69]* & 0.59 [0.51, 0.68]* & 0.89 [0.77, 1.04] & 1.56 [1.42, 1.71]* \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Odds ratios [Wald 95\% CI] of M3a (country + scope; reference Germany, citizen); * p $<$ 0.05. Outcome: harder (predicted B2 or C) versus easier (predicted A or B1), except the last row, which is a proportional-odds logit on A $<$ B1 $<$ B2 $<$ C (cumulative odds ratios; the Brant test rejects proportional odds). No model is refitted for this table; the values are copied from the full tables.
+\item UNCLEAR rows: Table~\ref{tab:regression-sensitivity}, columns (ii) and (iii). S1 to S4: specifications B1, B2, C and D of Table~\ref{tab:sens-country-ors}. Length control: Table~\ref{tab:length-control}; adding log(words) changes the reference to Germany at equal page length, which the German pages hardly reach. Ordinal logit: Table~\ref{tab:regression-robustness}.
+\item Three decimals where the upper confidence limit is below 0.1. $^\dagger$ Fewer than 30 pages in one outcome class for the country or for Germany (Germany keeps 11 easier pages in S1 and S4).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

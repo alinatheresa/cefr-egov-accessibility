@@ -1,0 +1,22 @@
+Source,Number of URLs Found
+sitemap:rijksoverheid.nl/sitemap,3629
+
+Language,Category,Count
+NL,nl_actueel,17
+NL,nl_ministeries,177
+NL,nl_onderwerpen,3361
+NL,nl_persinformatie-ministerie-van-az,4
+NL,nl_persinformatie-ministerie-van-bz,2
+NL,nl_persinformatie-ministerie-van-bzk,3
+NL,nl_persinformatie-ministerie-van-defensie,2
+NL,nl_persinformatie-ministerie-van-ezk,2
+NL,nl_persinformatie-ministerie-van-financien,8
+NL,nl_persinformatie-ministerie-van-ienw,1
+NL,nl_persinformatie-ministerie-van-jenv,2
+NL,nl_persinformatie-ministerie-van-lvvn,2
+NL,nl_persinformatie-ministerie-van-ocw,2
+NL,nl_persinformatie-ministerie-van-szw,2
+NL,nl_persinformatie-ministerie-van-vws,2
+NL,nl_regering,42
+
+TOTAL_NL,,3629

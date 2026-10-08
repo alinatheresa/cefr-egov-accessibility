@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{threeparttable}
+\caption{Precision, recall and F1 by language and class (test set, document level)}
+\label{tab:clf-prf-doc}
+\begin{tabular}{lrrrrrrr}
+\hline
+Language & A (P / R / F1) & B1 (P / R / F1) & B2 (P / R / F1) & C (P / R / F1) & Macro-F1 & Accuracy & Documents \\
+\hline
+German & 0.75 / 0.96 / 0.84 & 0.73 / 0.52 / 0.61 & 0.67 / 0.73 / 0.70 & 0.72 / 0.57 / 0.63 & 0.70 & 0.72 & 154 \\
+English & 0.78 / 1.00 / 0.88 & 0.86 / 0.74 / 0.79 & 0.69 / 0.74 / 0.71 & 0.83 / 0.78 / 0.80 & 0.80 & 0.78 & 139 \\
+Dutch & 0.56 / 0.56 / 0.56 & 0.63 / 0.69 / 0.66 & 0.56 / 0.53 / 0.54 & 0.50 / 0.33 / 0.40 & 0.54 & 0.59 & 120 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Document-level predictions: logits mean-pooled over all windows of a text, as in corpus inference. From the evaluation pass of 04\_eval\_per\_language.py; overall accuracy and per-language macro-F1 reproduce metrics.json.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

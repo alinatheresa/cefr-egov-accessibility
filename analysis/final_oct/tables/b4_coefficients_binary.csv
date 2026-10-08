@@ -1,0 +1,115 @@
+model,sample,term,label,coef,se,z,p,OR,OR_lo,OR_hi
+M1,"main (N=7,359)",Intercept,Intercept,0.132889,0.0566708,2.34493,0.0190306,1.14212,1.02206,1.2763
+M1,"main (N=7,359)","C(country, Treatment('germany'))[T.austria]",Austria,1.25902,0.0745263,16.8936,5.01419e-64,3.52196,3.04332,4.07588
+M1,"main (N=7,359)","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.727173,0.072999,-9.96141,2.24846e-23,0.483273,0.418848,0.557609
+M1,"main (N=7,359)","C(country, Treatment('germany'))[T.ireland]",Ireland,0.179106,0.0787586,2.27412,0.0229588,1.19615,1.02505,1.3958
+M2a,"main (N=7,359)",Intercept,Intercept,0.227435,0.0310789,7.31799,2.51707e-13,1.25538,1.18119,1.33422
+M2a,"main (N=7,359)","C(scope, Treatment('citizen'))[T.business]",Business,0.313849,0.0482183,6.50892,7.56906e-11,1.36868,1.24526,1.50434
+M2b,"main (N=7,359)",Intercept,Intercept,0.049734,0.0743524,0.668896,0.503562,1.05099,0.908469,1.21587
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.A]",A: Travel,0.352828,0.113062,3.12065,0.0018045,1.42309,1.14023,1.77611
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.C]",C: Vehicles,0.170715,0.116661,1.46335,0.143372,1.18615,0.943711,1.49088
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.D]",D: Residence,0.939555,0.137285,6.84383,7.71016e-12,2.55884,1.95518,3.34889
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.E]",E: Education or traineeship,-0.234411,0.119024,-1.96944,0.0489029,0.791036,0.626445,0.998873
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.F]",F: Healthcare,-0.319067,0.146846,-2.17281,0.029795,0.726827,0.545049,0.969229
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.G]",G: Citizens' and family rights,0.522785,0.109506,4.77404,1.80564e-06,1.68672,1.36092,2.09052
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.H]",H: Consumer rights,0.00939652,0.124053,0.0757461,0.939621,1.00944,0.791566,1.28729
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.I]",I: Protection of personal data,-0.123161,0.154602,-0.796638,0.425661,0.884121,0.653002,1.19704
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.J]","J: Starting, running, closing a business",0.930221,0.123069,7.55854,4.07633e-14,2.53507,1.99174,3.22661
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.K]",K: Employees (employer side),1.39063,0.378094,3.67799,0.000235076,4.01737,1.91473,8.429
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.L]",L: Taxes,0.447379,0.0930443,4.80824,1.52263e-06,1.56421,1.30345,1.87713
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.M]",M: Goods,0.209994,0.110739,1.8963,0.0579202,1.23367,0.992975,1.53271
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.N]",N: Services and qualifications,0.131014,0.151117,0.866972,0.385957,1.13998,0.84775,1.53296
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.O]",O: Funding a business,0.494993,0.244972,2.02062,0.0433196,1.64049,1.01497,2.65151
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.P]",P: Public contracts,1.17671,0.186875,6.29679,3.03874e-10,3.24369,2.24891,4.67851
+M2b,"main (N=7,359)","C(area, Treatment('B'))[T.Q]",Q: Health and safety at work,0.144422,0.19517,0.739981,0.459312,1.15537,0.788121,1.69376
+M3a,"main (N=7,359)",Intercept,Intercept,-0.248194,0.0660648,-3.75682,0.000172084,0.780209,0.685451,0.888066
+M3a,"main (N=7,359)","C(country, Treatment('germany'))[T.austria]",Austria,1.47929,0.0780793,18.946,4.76155e-80,4.38984,3.76693,5.11576
+M3a,"main (N=7,359)","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.621124,0.0742703,-8.36302,6.11327e-17,0.53734,0.464548,0.621539
+M3a,"main (N=7,359)","C(country, Treatment('germany'))[T.ireland]",Ireland,0.223897,0.0798129,2.80527,0.00502738,1.25094,1.06979,1.46276
+M3a,"main (N=7,359)","C(scope, Treatment('citizen'))[T.business]",Business,0.62735,0.0541711,11.5809,5.15035e-31,1.87264,1.68401,2.0824
+M3b,"main (N=7,359)",Intercept,Intercept,-0.298312,0.0976308,-3.05551,0.0022468,0.74207,0.612832,0.898563
+M3b,"main (N=7,359)","C(country, Treatment('germany'))[T.austria]",Austria,1.42714,0.0800253,17.8336,3.87355e-71,4.16678,3.56191,4.87436
+M3b,"main (N=7,359)","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.64451,0.0766103,-8.41284,4.00194e-17,0.52492,0.451733,0.609963
+M3b,"main (N=7,359)","C(country, Treatment('germany'))[T.ireland]",Ireland,0.197351,0.0816661,2.41656,0.0156681,1.21817,1.03799,1.42963
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.A]",A: Travel,0.291891,0.123877,2.3563,0.0184579,1.33896,1.05032,1.70691
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.C]",C: Vehicles,-0.047671,0.127632,-0.373504,0.708773,0.953447,0.742431,1.22444
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.D]",D: Residence,0.544018,0.149649,3.63529,0.000277672,1.72291,1.28494,2.31018
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.E]",E: Education or traineeship,-0.217086,0.130817,-1.65946,0.0970223,0.804861,0.622829,1.04009
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.F]",F: Healthcare,-0.198614,0.159642,-1.24412,0.213455,0.819866,0.599591,1.12106
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.G]",G: Citizens' and family rights,0.372642,0.121662,3.06292,0.00219191,1.45156,1.14361,1.84245
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.H]",H: Consumer rights,-0.0410143,0.135802,-0.302017,0.762639,0.959815,0.735518,1.25251
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.I]",I: Protection of personal data,-0.209541,0.171469,-1.22203,0.221696,0.810957,0.579486,1.13489
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.J]","J: Starting, running, closing a business",1.16951,0.13171,8.8794,6.72238e-19,3.22041,2.48771,4.16892
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.K]",K: Employees (employer side),1.14784,0.404719,2.83613,0.00456639,3.15137,1.42561,6.96621
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.L]",L: Taxes,0.56897,0.101762,5.5912,2.25508e-08,1.76645,1.44704,2.15635
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.M]",M: Goods,0.531286,0.119714,4.43797,9.08113e-06,1.70112,1.34535,2.15098
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.N]",N: Services and qualifications,0.3559,0.160607,2.21597,0.0266939,1.42746,1.04197,1.95557
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.O]",O: Funding a business,0.697368,0.25237,2.76328,0.0057224,2.00846,1.22474,3.29368
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.P]",P: Public contracts,1.54956,0.196663,7.8793,3.29209e-15,4.70942,3.20308,6.92416
+M3b,"main (N=7,359)","C(area, Treatment('B'))[T.Q]",Q: Health and safety at work,0.377591,0.209907,1.79885,0.0720424,1.45877,0.966747,2.2012
+M4,"main (N=7,359)",Intercept,Intercept,-0.0862958,0.090713,-0.951306,0.341449,0.917323,0.767904,1.09582
+M4,"main (N=7,359)","C(country, Treatment('germany'))[T.austria]",Austria,1.41849,0.106943,13.264,3.74324e-40,4.13087,3.34974,5.09414
+M4,"main (N=7,359)","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.875912,0.111318,-7.86857,3.58704e-15,0.416482,0.334844,0.518024
+M4,"main (N=7,359)","C(country, Treatment('germany'))[T.ireland]",Ireland,-0.127417,0.121468,-1.04898,0.294188,0.880366,0.693857,1.11701
+M4,"main (N=7,359)","C(scope, Treatment('citizen'))[T.business]",Business,0.360248,0.116462,3.09327,0.00197961,1.43368,1.14109,1.8013
+M4,"main (N=7,359)","C(country, Treatment('germany'))[T.austria]:C(scope, Treatment('citizen'))[T.business]",Austria x Business,-0.148404,0.159692,-0.929314,0.352727,0.862083,0.630404,1.17891
+M4,"main (N=7,359)","C(country, Treatment('germany'))[T.netherlands]:C(scope, Treatment('citizen'))[T.business]",Netherlands x Business,0.466872,0.149661,3.11952,0.00181145,1.595,1.18951,2.13871
+M4,"main (N=7,359)","C(country, Treatment('germany'))[T.ireland]:C(scope, Treatment('citizen'))[T.business]",Ireland x Business,0.631857,0.162085,3.89829,9.68724e-05,1.8811,1.36913,2.58452
+M1_all,"all labelled (N=8,997)",Intercept,Intercept,0.131623,0.0563986,2.3338,0.0196064,1.14068,1.02131,1.274
+M1_all,"all labelled (N=8,997)","C(country, Treatment('germany'))[T.austria]",Austria,1.4791,0.0714818,20.692,4.08991e-95,4.389,3.81522,5.04906
+M1_all,"all labelled (N=8,997)","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.740646,0.0707055,-10.4751,1.1245e-25,0.476806,0.415104,0.547679
+M1_all,"all labelled (N=8,997)","C(country, Treatment('germany'))[T.ireland]",Ireland,0.0833066,0.0756895,1.10064,0.271055,1.08687,0.937028,1.26068
+M3a_ii,UNCLEAR kept,Intercept,Intercept,-0.258648,0.0661568,-3.90961,9.24441e-05,0.772095,0.6782,0.878989
+M3a_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.austria]",Austria,1.56251,0.0778468,20.0716,1.30782e-89,4.77077,4.09567,5.55715
+M3a_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.691696,0.0739631,-9.3519,8.60903e-21,0.500726,0.433155,0.578839
+M3a_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.ireland]",Ireland,0.219048,0.0794638,2.75658,0.00584097,1.24489,1.06535,1.45469
+M3a_ii,UNCLEAR kept,"C(scope3, Treatment('citizen'))[T.business]",Business,0.650499,0.054615,11.9106,1.04196e-32,1.9165,1.72195,2.13303
+M3a_ii,UNCLEAR kept,"C(scope3, Treatment('citizen'))[T.unclear]",Unclear,1.24755,0.109526,11.3905,4.66156e-30,3.48182,2.80917,4.31553
+M3b_ii,UNCLEAR kept,Intercept,Intercept,-0.303899,0.0983752,-3.08918,0.00200708,0.737936,0.608529,0.894861
+M3b_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.austria]",Austria,1.51275,0.0797569,18.9671,3.19206e-80,4.53922,3.88232,5.30726
+M3b_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.718521,0.0763041,-9.41655,4.66175e-21,0.487473,0.419759,0.56611
+M3b_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.ireland]",Ireland,0.192482,0.0813112,2.36722,0.0179221,1.21225,1.03367,1.42169
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.A]",A: Travel,0.291544,0.125489,2.32327,0.0201648,1.33849,1.04665,1.71172
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.C]",C: Vehicles,-0.0639485,0.129129,-0.495229,0.620438,0.938053,0.728304,1.20821
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.D]",D: Residence,0.522568,0.151495,3.4494,0.000561825,1.68635,1.25313,2.26935
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.E]",E: Education or traineeship,-0.216132,0.132484,-1.63139,0.102809,0.805629,0.621391,1.04449
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.F]",F: Healthcare,-0.192863,0.161516,-1.19408,0.232447,0.824595,0.600839,1.13168
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.G]",G: Citizens' and family rights,0.370524,0.123485,3.00057,0.00269479,1.44849,1.13712,1.84513
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.H]",H: Consumer rights,-0.0453466,0.137533,-0.329715,0.741615,0.955666,0.729858,1.25134
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.I]",I: Protection of personal data,-0.216996,0.174039,-1.24682,0.212462,0.804933,0.572291,1.13215
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.J]","J: Starting, running, closing a business",1.18727,0.132594,8.95416,3.42337e-19,3.27812,2.5279,4.25098
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.K]",K: Employees (employer side),1.14369,0.40899,2.79638,0.00516787,3.13833,1.40788,6.9957
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.L]",L: Taxes,0.583961,0.102999,5.66956,1.43161e-08,1.79313,1.46534,2.19424
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.M]",M: Goods,0.555196,0.120788,4.59643,4.29785e-06,1.74228,1.375,2.20767
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.N]",N: Services and qualifications,0.367149,0.16164,2.2714,0.0231225,1.44361,1.05163,1.9817
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.O]",O: Funding a business,0.70486,0.252964,2.78641,0.0053296,2.02356,1.23252,3.32231
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.P]",P: Public contracts,1.58924,0.197859,8.03217,9.57606e-16,4.90002,3.32491,7.2213
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.Q]",Q: Health and safety at work,0.398766,0.211941,1.8815,0.0599042,1.48999,0.983507,2.25728
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.UNCLEAR]",UNCLEAR,1.33357,0.133148,10.0157,1.30006e-23,3.79456,2.92298,4.92603
+M3a_iii,"UNCLEAR kept, no rule pages",Intercept,Intercept,-0.23723,0.0659167,-3.59893,0.000319524,0.78881,0.693209,0.897596
+M3a_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.austria]",Austria,1.4549,0.07725,18.8336,4.00441e-79,4.28404,3.68212,4.98435
+M3a_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.636736,0.0737674,-8.63168,6.04557e-18,0.529016,0.457802,0.611308
+M3a_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.ireland]",Ireland,0.240644,0.0793369,3.0332,0.00241978,1.27207,1.08888,1.48608
+M3a_iii,"UNCLEAR kept, no rule pages","C(scope3, Treatment('citizen'))[T.business]",Business,0.620492,0.0540566,11.4786,1.69075e-30,1.85984,1.67287,2.06771
+M3a_iii,"UNCLEAR kept, no rule pages","C(scope3, Treatment('citizen'))[T.unclear]",Unclear,0.165279,0.13803,1.19742,0.231145,1.17972,0.900095,1.54622
+M3b_iii,"UNCLEAR kept, no rule pages",Intercept,Intercept,-0.285672,0.0974707,-2.93085,0.00338037,0.751509,0.620822,0.909707
+M3b_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.austria]",Austria,1.40213,0.0791823,17.7076,3.66527e-70,4.06383,3.47965,4.74609
+M3b_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.662376,0.0760659,-8.70792,3.09502e-18,0.515625,0.444208,0.598523
+M3b_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.ireland]",Ireland,0.214809,0.0811442,2.64725,0.00811488,1.23963,1.05735,1.45332
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.A]",A: Travel,0.290967,0.123758,2.35109,0.0187187,1.33772,1.0496,1.70494
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.C]",C: Vehicles,-0.0524105,0.127425,-0.411305,0.680849,0.948939,0.739221,1.21816
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.D]",D: Residence,0.544844,0.149458,3.64546,0.000266916,1.72434,1.28648,2.31122
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.E]",E: Education or traineeship,-0.221932,0.130668,-1.69844,0.089424,0.800969,0.619999,1.03476
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.F]",F: Healthcare,-0.2022,0.159497,-1.26774,0.204892,0.816932,0.597616,1.11673
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.G]",G: Citizens' and family rights,0.376818,0.121546,3.10021,0.00193381,1.45764,1.14866,1.84974
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.H]",H: Consumer rights,-0.0432003,0.135648,-0.318473,0.750126,0.95772,0.734133,1.2494
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.I]",I: Protection of personal data,-0.20742,0.17127,-1.21108,0.225866,0.812678,0.580943,1.13685
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.J]","J: Starting, running, closing a business",1.15624,0.131609,8.78545,1.55743e-18,3.17796,2.45541,4.11315
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.K]",K: Employees (employer side),1.14969,0.404461,2.84253,0.00447571,3.15722,1.42898,6.97562
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.L]",L: Taxes,0.565198,0.101666,5.55933,2.70812e-08,1.7598,1.44186,2.14783
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.M]",M: Goods,0.522101,0.119633,4.36419,1.27593e-05,1.68557,1.33326,2.13097
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.N]",N: Services and qualifications,0.343297,0.16052,2.13865,0.0324636,1.40959,1.0291,1.93075
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.O]",O: Funding a business,0.678666,0.252293,2.68999,0.00714537,1.97125,1.20223,3.23216
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.P]",P: Public contracts,1.54352,0.196706,7.84686,4.26596e-15,4.68106,3.18352,6.88304
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.Q]",Q: Health and safety at work,0.371714,0.209867,1.77119,0.0765292,1.45022,0.961157,2.18813
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.UNCLEAR]",UNCLEAR,0.248476,0.156608,1.58661,0.112601,1.28207,0.943206,1.74268

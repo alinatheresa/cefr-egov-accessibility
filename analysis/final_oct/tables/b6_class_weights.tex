@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Class weights in the training loss}
+\label{tab:clf-weights}
+\begin{tabular}{lr}
+\hline
+Level & Weight \\
+\hline
+A & 6.50 \\
+B1 & 3.76 \\
+B2 & 3.39 \\
+C & 3.51 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Inverse frequency of training windows (total windows divided by windows of the class), as recorded in run\_manifest.json and used in the weighted cross-entropy loss (label smoothing 0.1) plus EMD term (weight 0.3).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

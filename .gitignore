@@ -1,0 +1,77 @@
+# System, editor, Python caches
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.env
+*.log
+
+# Model weights, checkpoints and tokenizer copies (any location)
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.gguf
+classifier/02_train_output/runs/*/mdeberta_cefr_multi/
+classifier/02_train_output/runs/*/trials/
+classifier/02_train_output/runs/*/ab_lang_weight_test/
+classifier/01_sweep_output/runs/
+classifier/00_prepare_output/tokenizer/
+
+# Raw training data (tokenised UniversalCEFR) and texts derived from it
+classifier/00_prepare_output/tokenized_packed/
+analysis/final_oct/results/local_only_training_texts.csv
+analysis/error_analysis/output_errors/
+analysis/error_analysis/rater_agreement_*
+
+# Raw portal data written by the collection scripts (URL lists, page and sentence texts)
+country_pipelines/*/00_discover_output_*/**/*_urls_*.csv
+country_pipelines/*/01_clean_output_*/*/*_all_sitemap_urls_*_clean.csv
+country_pipelines/*/02_scrape_output_*/*/*.csv
+!country_pipelines/*/02_scrape_output_*/rejected/*.csv
+country_pipelines/*/02_scrape_output_*/*.txt
+country_pipelines/*/02_scrape_output_*/*/*.txt
+country_pipelines/*/02_scrape_output_*/sentences_for_cefr_*.csv
+classifier/all_countries_cefr.csv
+
+# Outputs that contain page texts
+analysis/sampling/manual_annotation_sample.csv
+analysis/final_oct/examples.md
+analysis/final_oct/ch5b_examples.md
+
+# Figures are published as PDF only
+*.png
+
+# Outputs the scripts also write that are not used in the thesis
+analysis/final_oct/figures/*.pdf
+!analysis/final_oct/figures/b3_confusion_manual_vs_zeroshot.pdf
+!analysis/final_oct/figures/clf_learning_curve_loss.pdf
+!analysis/final_oct/figures/clf_confusion_matrix_test_doc.pdf
+!analysis/final_oct/figures/clf_confusion_matrix_test_doc_de.pdf
+!analysis/final_oct/figures/clf_confusion_matrix_test_doc_en.pdf
+!analysis/final_oct/figures/clf_confusion_matrix_test_doc_nl.pdf
+!analysis/final_oct/figures/fig1_cefr_distribution_by_country.pdf
+!analysis/final_oct/figures/ch5b_fig_expected_index_by_country.pdf
+!analysis/final_oct/figures/ch5b_fig_cefr_by_path.pdf
+!analysis/final_oct/figures/fig2_leichte_sprache_pairs.pdf
+!analysis/final_oct/figures/ch5b_fig_cefr_by_scope_country.pdf
+!analysis/final_oct/figures/fig6_share_demanding_by_area.pdf
+!analysis/final_oct/figures/fig7a_forest_M3a_country_scope.pdf
+!analysis/final_oct/figures/fig8a_sentence_length_by_cefr.pdf
+!analysis/final_oct/figures/fig8b_flesch_by_cefr.pdf
+!analysis/final_oct/figures/ch5_fig_expected_cefr_vs_words_by_country.pdf
+analysis/final_oct/tables/b3_confusion_manual_vs_cached_rerun.csv
+analysis/final_oct/tables/b1_descriptives.tex
+analysis/final_oct/tables/sens_descriptives.tex
+analysis/final_oct/tables/ch5_fig_cefr_distribution_germany_split.csv
+analysis/final_oct/tables/ch5b_cefr_by_path_secondlevel.csv
+analysis/final_oct/results/b1_unlabelled_pages.json
+analysis/regression/regression_coefs.csv
+analysis/regression/regression_comparison.csv
+analysis/readability/readability_*.csv
+!analysis/readability/readability_per_page.csv

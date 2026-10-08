@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{threeparttable}
+\caption{Classification errors by language (test set)}
+\label{tab:clf-errors}
+\begin{tabular}{lrrrrrl}
+\hline
+Language & n & Errors & 1 level apart (\%) & 2+ levels apart (\%) & Within one (\%) & Most frequent confusion \\
+\hline
+German & 155 & 44 & 42 (95) & 2 (5) & 98.7 & B1 as A (14) \\
+English & 279 & 57 & 56 (98) & 1 (2) & 99.6 & C as B2 (22) \\
+Dutch & 120 & 49 & 46 (94) & 3 (6) & 97.5 & B2 as B1 (14) \\
+\hline
+All & 554 & 150 & 144 (96) & 6 (4) & 98.9 & C as B2 (36) \\
+\hline
+All (document level) & 413 & 122 & 117 (96) & 5 (4) & 98.8 & B1 as A (26) \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Window level unless stated. Percentages in the error columns are shares of all errors. Most frequent confusion is given as true level as predicted level (count).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

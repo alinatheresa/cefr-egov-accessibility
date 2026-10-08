@@ -1,0 +1,7 @@
+category,attempted,success,failures,total_sentences,total_words,avg_sentences_per_url,median_sentences_per_url,avg_words_per_url,median_words_per_url,avg_words_per_sentence
+gesetzliche-neuerungen,40,40,0,621,11775,15.525,13.000,294.375,256.500,18.961
+landingpages,3,3,0,22,271,7.333,4.000,90.333,59.000,12.318
+lebenslagen,60,60,0,2181,28855,36.350,33.500,480.917,440.000,13.230
+themen,3633,3633,0,85157,1220628,23.440,17.000,335.983,243.000,14.334
+
+ALL,3736,3736,0,87981,1261529,23.550,17.000,337.668,249.000,14.339

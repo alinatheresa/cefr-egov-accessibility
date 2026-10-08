@@ -1,0 +1,6 @@
+spec,title,N,N_germany,N_austria,N_netherlands,N_ireland,y0_germany,y0_austria,y0_netherlands,y0_ireland,y1_germany,y1_austria,y1_netherlands,y1_ireland,country_outcome_cells_lt30,country_scope_outcome_cells_lt30,areas_lt30,areas_absent
+A,A. Main specification,7359,1251,2677,2061,1370,584,533,1328,579,667,2144,733,791,[],[],{},[]
+B1,B1. Pages under 50 words dropped,5406,130,2154,1842,1280,11,80,1115,490,119,2074,727,790,['germany y=0: 11'],"['germany/citizen y=0: 9', 'germany/business y=0: 2', 'austria/business y=0: 16']",{},[]
+B2,B2. German leistung pages dropped,6314,206,2677,2061,1370,40,533,1328,579,166,2144,733,791,[],"['germany/citizen y=0: 21', 'germany/business y=0: 19']",{},[]
+C,C. Dutch news and document pages dropped,6614,1251,2677,1316,1370,584,533,1109,579,667,2144,207,791,[],[],{},[]
+D,D. B1 and C combined,4769,130,2154,1205,1280,11,80,999,490,119,2074,206,790,['germany y=0: 11'],"['germany/citizen y=0: 9', 'germany/business y=0: 2', 'austria/business y=0: 16']",{},[]

@@ -1,0 +1,56 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{threeparttable}
+\caption{URL categories, Ireland (gov.ie, English version)}
+\label{tab:dc_categories_ireland}
+\begin{tabular}{lrlrrr}
+\hline
+Category (URL segment) & Discovered & Status & Kept in 01 & Rejected & Final corpus \\
+\hline
+en\_campaigns & 327 & included & 252 & 75 & 252 \\
+en\_policies & 57 & included & 56 & 1 & 56 \\
+en\_services & 1,447 & included & 1,280 & 167 & 1,280 \\
+en\_aquaculture-licences & 189 & excluded &  &  &  \\
+en\_biographies & 2,380 & excluded &  &  &  \\
+en\_circulars & 3,628 & excluded &  &  &  \\
+en\_colaiste-gaeilge-inspection-reports & 204 & excluded &  &  &  \\
+en\_colaisti-gaeilge & 62 & excluded &  &  &  \\
+en\_collections & 2,862 & excluded &  &  &  \\
+en\_consultations & 2,753 & excluded &  &  &  \\
+en\_coroner-case & 51 & excluded &  &  &  \\
+en\_coroners & 33 & excluded &  &  &  \\
+en\_early-years-service-inspection-report & 4,877 & excluded &  &  &  \\
+en\_early-years-services & 3,281 & excluded &  &  &  \\
+en\_foreshore-notices & 473 & excluded &  &  &  \\
+en\_forms & 384 & excluded &  &  &  \\
+en\_intreo-centres & 132 & excluded &  &  &  \\
+en\_irish-government-economic-and-evaluation-service-igees & 637 & excluded &  &  &  \\
+en\_irish-treaty-series & 1,426 & excluded &  &  &  \\
+en\_news & 1,117 & excluded &  &  &  \\
+en\_ogp-frameworks & 149 & excluded &  &  &  \\
+en\_oireachtas-enquiries & 161 & excluded &  &  &  \\
+en\_organisation-information & 1,286 & excluded &  &  &  \\
+en\_policy-information & 364 & excluded &  &  &  \\
+en\_press-releases & 21,512 & excluded &  &  &  \\
+en\_publications & 16,936 & excluded &  &  &  \\
+en\_roles & 1,695 & excluded &  &  &  \\
+en\_school-inspection-reports & 19,380 & excluded &  &  &  \\
+en\_schools & 5,028 & excluded &  &  &  \\
+en\_speeches & 1,824 & excluded &  &  &  \\
+en\_youthreach-centre-inspection-report & 197 & excluded &  &  &  \\
+en\_youthreach-centres & 139 & excluded &  &  &  \\
+en\_other & 204 & excluded &  &  &  \\
+\hline
+Total & 95,195 &  & 1,588 & 243 & 1,588 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Category = the path segment after \texttt{/en/<publisher>/}, matched against a fixed list of 30 names, plus two first-level segments (irish-treaty-series, irish-government-economic-and-evaluation-service-igees); everything else is en\_other. The code gives no reason for the include list.
+\item Path-filtered: 93,364 URLs. Of the 243 rejected URLs, 78 redirected to an organisation's services listing and 50 of the 165 no-text rejections are category index pages (\texttt{/en/<publisher>/campaigns/} and similar).
+\item The 19,384 Irish-language URLs use Irish path segments (for example \texttt{foilseachain}, \texttt{preaseisiuinti}), so 19,336 of them fall into ga\_other; none were processed.
+\item URL evidence only for excluded categories: school-inspection-reports URLs have the form \texttt{/en/department-of-education/school-inspection-reports/<school>/}. The pages were never fetched.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

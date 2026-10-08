@@ -1,0 +1,6 @@
+country,n_model_calls,median_prompt_tokens,max_prompt_tokens,n_over_4096,pct_over_4096,n_over_4096_minus_num_predict,pct_over_4096_minus_num_predict,n_over_2048,pct_over_2048
+Germany,1264,1815.00,3749,0,0.00,0,0.00,68,5.38
+Austria,2987,2155.00,3820,0,0.00,0,0.00,1802,60.33
+Netherlands,2410,2287.00,3737,0,0.00,0,0.00,1770,73.44
+Ireland,1588,2008.50,3482,0,0.00,0,0.00,708,44.58
+Total,8249,2081.00,3820,0,0.00,0,0.00,4348,52.71

@@ -1,0 +1,228 @@
+{
+  "transcription_check": {
+    "test_de_macroF1": {
+      "from_png": 0.6926444842880779,
+      "metrics_json": 0.6926444842880779,
+      "match": 1.0
+    },
+    "test_en_macroF1": {
+      "from_png": 0.7994864612511671,
+      "metrics_json": 0.7994864612511672,
+      "match": 1.0
+    },
+    "test_nl_macroF1": {
+      "from_png": 0.5392414153283718,
+      "metrics_json": 0.5392414153283719,
+      "match": 1.0
+    },
+    "val_de_macroF1": {
+      "from_png": 0.7149995111978871,
+      "metrics_json": 0.7149995111978871,
+      "match": 1.0
+    },
+    "val_en_macroF1": {
+      "from_png": 0.7170719351570416,
+      "metrics_json": 0.7170719351570416,
+      "match": 1.0
+    },
+    "val_nl_macroF1": {
+      "from_png": 0.5569541113019374,
+      "metrics_json": 0.5569541113019374,
+      "match": 1.0
+    },
+    "test_lang_sum_equals_overall_window": true,
+    "test_window_acc": {
+      "from_png": 0.7292418772563177,
+      "metrics_json": 0.7292418772563177,
+      "match": 1.0
+    },
+    "test_window_qwk": {
+      "from_png": 0.8614414425143959,
+      "metrics_json": 0.8614414425143959,
+      "match": 1.0
+    },
+    "test_doc_acc": {
+      "from_png": 0.7046004842615012,
+      "metrics_json": 0.7046004842615012,
+      "match": 1.0
+    },
+    "test_doc_qwk": {
+      "from_png": 0.8408289799787888,
+      "metrics_json": 0.8408289799787888,
+      "match": 1.0
+    },
+    "val_doc_acc": {
+      "from_png": 0.6852300242130751,
+      "metrics_json": 0.6852300242130751,
+      "match": 1.0
+    },
+    "val_doc_qwk": {
+      "from_png": 0.8357834870335179,
+      "metrics_json": 0.8357834870335179,
+      "match": 1.0
+    }
+  },
+  "dataset_by_language": [
+    {
+      "language": "Dutch",
+      "n_raw": 3596,
+      "n_final": 1195
+    },
+    {
+      "language": "English",
+      "n_raw": 1538,
+      "n_final": 1519
+    },
+    {
+      "language": "German",
+      "n_raw": 1542,
+      "n_final": 1542
+    }
+  ],
+  "final_texts_by_language": {
+    "de": 1542,
+    "en": 1389,
+    "nl": 1195
+  },
+  "class_weights_used": {
+    "A": 6.501457691192627,
+    "B1": 3.757371425628662,
+    "B2": 3.386484384536743,
+    "C": 3.5118110179901123
+  },
+  "class_weights_json": {
+    "A": 4.817518248175182,
+    "B1": 3.1578947368421053,
+    "B2": 3.433922996878252,
+    "C": 5.41871921182266
+  },
+  "elg_cefr_nl_rater_spread": {
+    "n_texts": 1195,
+    "rater_spread_levels": {
+      "0": 290,
+      "1": 684,
+      "2": 212,
+      "3": 9
+    },
+    "share_any_disagreement": 0.7573221757322176
+  },
+  "errors": [
+    {
+      "split": "test",
+      "language": "German",
+      "n": 155,
+      "accuracy": 0.7161290322580646,
+      "macro_f1": 0.6926444842880779,
+      "qwk": 0.8570110701107011,
+      "within_one": 0.9870967741935484,
+      "errors": 44,
+      "errors_1": 42,
+      "errors_2plus": 2,
+      "top_confusion": "B1 as A (14)"
+    },
+    {
+      "split": "test",
+      "language": "English",
+      "n": 279,
+      "accuracy": 0.7956989247311828,
+      "macro_f1": 0.7994864612511671,
+      "qwk": 0.8825658725481943,
+      "within_one": 0.996415770609319,
+      "errors": 57,
+      "errors_1": 56,
+      "errors_2plus": 1,
+      "top_confusion": "C as B2 (22)"
+    },
+    {
+      "split": "test",
+      "language": "Dutch",
+      "n": 120,
+      "accuracy": 0.5916666666666667,
+      "macro_f1": 0.5392414153283718,
+      "qwk": 0.6158940397350994,
+      "within_one": 0.975,
+      "errors": 49,
+      "errors_1": 46,
+      "errors_2plus": 3,
+      "top_confusion": "B2 as B1 (14)"
+    },
+    {
+      "split": "test",
+      "language": "All",
+      "n": 554,
+      "accuracy": 0.7292418772563177,
+      "macro_f1": 0.7370016739669435,
+      "qwk": 0.8614414425143959,
+      "within_one": 0.9891696750902527,
+      "errors": 150,
+      "errors_1": 144,
+      "errors_2plus": 6,
+      "top_confusion": "C as B2 (36)"
+    },
+    {
+      "split": "val",
+      "language": "German",
+      "n": 156,
+      "accuracy": 0.7243589743589743,
+      "macro_f1": 0.7149995111978871,
+      "qwk": 0.8657534246575342,
+      "within_one": 0.9871794871794872,
+      "errors": 43,
+      "errors_1": 41,
+      "errors_2plus": 2,
+      "top_confusion": "B1 as A (15)"
+    },
+    {
+      "split": "val",
+      "language": "English",
+      "n": 298,
+      "accuracy": 0.7449664429530202,
+      "macro_f1": 0.7170719351570416,
+      "qwk": 0.837020832297519,
+      "within_one": 0.9865771812080537,
+      "errors": 76,
+      "errors_1": 72,
+      "errors_2plus": 4,
+      "top_confusion": "B1 as B2 (19)"
+    },
+    {
+      "split": "val",
+      "language": "Dutch",
+      "n": 120,
+      "accuracy": 0.6083333333333333,
+      "macro_f1": 0.5569541113019374,
+      "qwk": 0.66388557806913,
+      "within_one": 1.0,
+      "errors": 47,
+      "errors_1": 47,
+      "errors_2plus": 0,
+      "top_confusion": "B2 as B1 (15)"
+    },
+    {
+      "split": "val",
+      "language": "All",
+      "n": 574,
+      "accuracy": 0.710801393728223,
+      "macro_f1": 0.7124734882572498,
+      "qwk": 0.8581802556665592,
+      "within_one": 0.9895470383275261,
+      "errors": 166,
+      "errors_1": 160,
+      "errors_2plus": 6,
+      "top_confusion": "B1 as B2 (35)"
+    },
+    {
+      "split": "test",
+      "language": "All (document level)",
+      "n": 413,
+      "accuracy": 0.7046004842615012,
+      "macro_f1": 0.7112140208405064,
+      "qwk": 0.8408289799787888,
+      "within_one": 0.9878934624697336,
+      "errors": 122,
+      "errors_1": 117,
+      "errors_2plus": 5,
+      "top_confusion": "B1 as A (26)"
+    }
+  ]
+}

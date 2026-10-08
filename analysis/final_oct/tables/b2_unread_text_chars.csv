@@ -1,0 +1,6 @@
+country,n_pages,pct_pages_over_6000,n_pages_over_6000,pct_chars_unseen,median_chars,median_body_chars,p90_chars,modelcalls_n_pages,modelcalls_pct_pages_over_6000,modelcalls_n_pages_over_6000,modelcalls_pct_chars_unseen,modelcalls_median_chars,modelcalls_median_body_chars,modelcalls_p90_chars
+Germany,1264,2.06,26,15.55,319.00,211.00,466.10,1264,2.06,26,15.55,319.00,211.00,466.10
+Austria,3736,6.85,256,3.78,1967.50,1924.00,5642.50,2987,4.08,122,4.05,1507.00,1454.00,4340.40
+Netherlands,2410,2.20,53,2.28,1864.50,1799.00,3987.70,2410,2.20,53,2.28,1864.50,1799.00,3987.70
+Ireland,1588,4.85,77,8.64,1310.00,1260.00,4491.60,1588,4.85,77,8.64,1310.00,1260.00,4491.60
+Total,8998,4.58,412,4.69,1478.50,1421.00,4944.00,8249,3.37,278,5.04,1299.00,1244.00,4034.00

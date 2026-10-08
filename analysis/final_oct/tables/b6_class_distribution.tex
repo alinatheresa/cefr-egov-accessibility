@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{threeparttable}
+\caption{CEFR class distribution by language and split}
+\label{tab:clf-classes}
+\begin{tabular}{llrrrrr}
+\hline
+Language & Split & A & B1 & B2 & C & Total \\
+\hline
+German & Train & 387 (31) & 337 (27) & 326 (26) & 183 (15) & 1,233 \\
+ & Validation & 49 (32) & 42 (27) & 41 (26) & 23 (15) & 155 \\
+ & Test & 48 (31) & 42 (27) & 41 (27) & 23 (15) & 154 \\
+\hline
+English & Train & 149 (13) & 275 (25) & 331 (30) & 356 (32) & 1,111 \\
+ & Validation & 19 (14) & 35 (25) & 41 (29) & 44 (32) & 139 \\
+ & Test & 18 (13) & 34 (24) & 42 (30) & 45 (32) & 139 \\
+\hline
+Dutch & Train & 149 (16) & 433 (45) & 304 (32) & 70 (7) & 956 \\
+ & Validation & 19 (16) & 54 (45) & 38 (32) & 8 (7) & 119 \\
+ & Test & 18 (15) & 55 (46) & 38 (32) & 9 (8) & 120 \\
+\hline
+All & Train & 685 (21) & 1045 (32) & 961 (29) & 609 (18) & 3,300 \\
+ & Validation & 87 (21) & 131 (32) & 120 (29) & 75 (18) & 413 \\
+ & Test & 84 (20) & 131 (32) & 121 (29) & 77 (19) & 413 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Documents per class with row percentages in parentheses. A combines A1 and A2; C combines C1 and C2. Splits are stratified, seed 42.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

@@ -1,0 +1,22 @@
+{
+  "candidates": [
+    {
+      "scheduler": "linear",
+      "balanced": false,
+      "val_macro_f1": 0.7124734882572498,
+      "val_loss": 0.6892076134681702,
+      "csv_log": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0/training_log.csv",
+      "run_root": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0",
+      "best_epoch": 3
+    }
+  ],
+  "winner": {
+    "scheduler": "linear",
+    "balanced": false,
+    "val_macro_f1": 0.7124734882572498,
+    "val_loss": 0.6892076134681702,
+    "csv_log": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0/training_log.csv",
+    "run_root": "<repo>/classifier/02_train_output/runs/cefr_20260817_231925/trials/linear_bal0",
+    "best_epoch": 3
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "max_chars": 6000,
+  "ollama_options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 256
+  },
+  "num_ctx_set": false,
+  "system_prompt_tokens_with_template": 1731,
+  "system_prompt_tokens_older_prompt": 1360,
+  "tokenizer_check_against_log": {
+    "n_requests": 90,
+    "n_exact_match": 89,
+    "diff_min": 0,
+    "diff_max": 4,
+    "logged_max": 3250,
+    "n_ctx": 4096,
+    "n_keep": 4
+  },
+  "tokens_6000_char_page_by_country": [
+    {
+      "country": "germany",
+      "count": 26,
+      "median": 1665.0,
+      "min": 1565,
+      "max": 2018
+    },
+    {
+      "country": "austria",
+      "count": 122,
+      "median": 1682.0,
+      "min": 1531,
+      "max": 2089
+    },
+    {
+      "country": "netherlands",
+      "count": 53,
+      "median": 1789.0,
+      "min": 1635,
+      "max": 2006
+    },
+    {
+      "country": "ireland",
+      "count": 77,
+      "median": 1201.0,
+      "min": 1035,
+      "max": 1376
+    }
+  ],
+  "log_truncating_input_prompt_hits": 0,
+  "logs": [
+    {
+      "log": "app-1.log",
+      "first_timestamp": "2026-09-30T12:05:50.720+02:00",
+      "versions": [
+        "0.32.1"
+      ],
+      "default_num_ctx": [],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "app-2.log",
+      "first_timestamp": "2026-07-21T21:29:59.763+02:00",
+      "versions": [
+        "0.32.1"
+      ],
+      "default_num_ctx": [],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "app-3.log",
+      "first_timestamp": "2026-07-21T21:29:34.914+02:00",
+      "versions": [
+        "0.31.1"
+      ],
+      "default_num_ctx": [],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "app-4.log",
+      "first_timestamp": "2026-07-04T00:41:26.377+02:00",
+      "versions": [
+        "0.31.1"
+      ],
+      "default_num_ctx": [],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "app-5.log",
+      "first_timestamp": "2026-07-04T00:41:03.946+02:00",
+      "versions": [
+        "0.24.0"
+      ],
+      "default_num_ctx": [],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "app.log",
+      "first_timestamp": "2026-09-30T12:06:04.808+02:00",
+      "versions": [
+        "0.35.0"
+      ],
+      "default_num_ctx": [],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "server-1.log",
+      "first_timestamp": "2026-09-30T12:05:52.097+02:00",
+      "versions": [],
+      "default_num_ctx": [
+        "4096"
+      ],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "server-2.log",
+      "first_timestamp": "2026-07-21T21:30:01.855+02:00",
+      "versions": [],
+      "default_num_ctx": [
+        "4096"
+      ],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "server-3.log",
+      "first_timestamp": "2026-07-21T21:29:45.691+02:00",
+      "versions": [],
+      "default_num_ctx": [
+        "4096"
+      ],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "server-4.log",
+      "first_timestamp": "2026-07-04T00:41:28.228+02:00",
+      "versions": [],
+      "default_num_ctx": [
+        "4096"
+      ],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "server-5.log",
+      "first_timestamp": "2026-07-04T00:41:05.659+02:00",
+      "versions": [],
+      "default_num_ctx": [
+        "4096"
+      ],
+      "n_truncated_1": 0
+    },
+    {
+      "log": "server.log",
+      "first_timestamp": "2026-09-30T12:06:06.689+02:00",
+      "versions": [],
+      "default_num_ctx": [
+        "4096"
+      ],
+      "n_truncated_1": 0
+    }
+  ]
+}

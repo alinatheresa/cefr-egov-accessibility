@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{threeparttable}
+\caption{URL categories, Austria (oesterreich.gv.at)}
+\label{tab:dc_categories_austria}
+\begin{tabular}{lrlrrr}
+\hline
+Category (URL segment) & Discovered & Status & Kept in 01 & Rejected & Final corpus \\
+\hline
+de\_lebenslagen & 60 & included & 60 & 0 & 60 \\
+de\_themen & 3,804 & included & 3,633 & 171 & 3,633 \\
+de\_landingpages & 3 & included & 3 & 0 & 3 \\
+de\_gesetzliche-neuerungen & 41 & included & 40 & 1 & 40 \\
+de\_lexicon & 955 & excluded &  &  &  \\
+de\_orgsearch & 7,351 & excluded &  &  &  \\
+de\_formsearch & 1,099 & excluded &  &  &  \\
+de\_hilfe & 15 & excluded &  &  &  \\
+de\_other & 60 & excluded &  &  &  \\
+\hline
+Total & 13,388 &  & 3,736 & 172 & 3,736 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Categories are the path segment after \texttt{/de/} for eight named segments (case-insensitive, so \texttt{Gesetzliche-Neuerungen} becomes \texttt{de\_gesetzliche-neuerungen}); every other \texttt{/de/} URL is \texttt{de\_other}. The sitemap contained no \texttt{/en/} URLs.
+\item Excluded: 9,480 URLs. The code gives no reason for including or excluding any Austrian category.
+\item URL evidence for excluded categories: orgsearch URLs have the form \texttt{/de/orgsearch/org/<id>} (organisation directory entries), hilfe URLs are portal help pages, and de\_other contains, for example, app terms of use and \texttt{/de/anmelden\_javascript}. The pages themselves were never fetched.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

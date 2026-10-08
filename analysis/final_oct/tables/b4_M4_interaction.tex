@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Exploratory interaction model M4 (country x scope)}
+\label{tab:regression-m4}
+\begin{tabular}{lrr}
+\hline
+Term & OR [95\% CI] & p \\
+\hline
+Austria & 4.13 [3.35, 5.09] & $<$0.001 \\
+Netherlands & 0.42 [0.33, 0.52] & $<$0.001 \\
+Ireland & 0.88 [0.69, 1.12] & 0.294 \\
+Business & 1.43 [1.14, 1.80] & 0.002 \\
+Austria x Business & 0.86 [0.63, 1.18] & 0.353 \\
+Netherlands x Business & 1.59 [1.19, 2.14] & 0.002 \\
+Ireland x Business & 1.88 [1.37, 2.58] & $<$0.001 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Binary logit, N = 7,359, McFadden $R^2$ = 0.119, AIC = 8,794.8. Country main effects refer to citizen pages; interaction terms are ratios of odds ratios (business versus citizen in that country relative to Germany).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

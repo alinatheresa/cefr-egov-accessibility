@@ -1,0 +1,48 @@
+{
+  "note": "Label-only weights (class_weights.json) are used for the training loss. Language and joint weights here are candidates for future ablations only. English A2 has very few examples, so a cap of 5.0 is applied to prevent extreme weight values in tiny language-by-label cells.",
+  "lang_label_counts_train": {
+    "de": {
+      "A": 387,
+      "B1": 337,
+      "B2": 326,
+      "C": 183
+    },
+    "en": {
+      "A": 149,
+      "B1": 275,
+      "B2": 331,
+      "C": 356
+    },
+    "nl": {
+      "A": 149,
+      "B1": 433,
+      "B2": 304,
+      "C": 70
+    }
+  },
+  "label_only_weights": {
+    "A": 4.8175,
+    "B1": 3.1579,
+    "B2": 3.4339,
+    "C": 5.4187
+  },
+  "candidate_language_weights_normalized_capped": {
+    "en": 0.9794,
+    "de": 0.8825,
+    "nl": 1.1382
+  },
+  "candidate_joint_weights_capped": {
+    "en|A": 5.0,
+    "en|B1": 5.0,
+    "en|B2": 5.0,
+    "en|C": 5.0,
+    "de|A": 5.0,
+    "de|B1": 5.0,
+    "de|B2": 5.0,
+    "de|C": 5.0,
+    "nl|A": 5.0,
+    "nl|B1": 5.0,
+    "nl|B2": 5.0,
+    "nl|C": 5.0
+  }
+}

@@ -1,0 +1,7 @@
+language,measure,n,rho,p
+german,mean_sentence_length_words,4999,0.1855,6.033e-40
+german,flesch,4999,0.1803,8.261e-38
+dutch,mean_sentence_length_words,2410,0.6614,4.027e-303
+dutch,flesch,2410,-0.2276,1.06e-29
+english,mean_sentence_length_words,1588,0.5256,1.747e-113
+english,flesch,1588,-0.2296,1.931e-20

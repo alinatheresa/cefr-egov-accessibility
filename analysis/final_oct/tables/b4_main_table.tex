@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Binary logistic regression of harder text (B2 or C) on country and content type}
+\label{tab:regression-main}
+\begin{tabular}{lrrrr}
+\hline
+ & M3a OR [95\% CI] & p & M3b OR [95\% CI] & p \\
+\hline
+Austria & 4.39 [3.77, 5.12] & $<$0.001 & 4.17 [3.56, 4.87] & $<$0.001 \\
+Netherlands & 0.54 [0.46, 0.62] & $<$0.001 & 0.52 [0.45, 0.61] & $<$0.001 \\
+Ireland & 1.25 [1.07, 1.46] & 0.005 & 1.22 [1.04, 1.43] & 0.016 \\
+Business & 1.87 [1.68, 2.08] & $<$0.001 &  &  \\
+\hline
+17 SDGR areas (16 dummies) & no &  & yes &  \\
+N & 7,359 &  & 7,359 &  \\
+McFadden $R^2$ & 0.116 &  & 0.128 &  \\
+AIC & 8,823.0 &  & 8,734.8 &  \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Outcome: harder (predicted B2 or C, 1) versus easier (predicted A or B1, 0). Odds ratios with Wald 95\% confidence intervals. References: Germany; citizen scope (M3a); area B, Work and retirement (M3b).
+\item Estimation sample: pages with a CEFR label and a citizen (A to I) or business (J to Q) area; 1,032 UNCLEAR and 606 OUT\_OF\_SCOPE pages are excluded. Area coefficients of M3b are in the appendix.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

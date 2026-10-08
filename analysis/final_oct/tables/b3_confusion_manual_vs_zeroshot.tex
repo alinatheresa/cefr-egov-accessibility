@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Manual scope annotation versus zero-shot scope (corpus labels)}
+\label{tab:zeroshot-confusion}
+\begin{tabular}{lrrrr}
+\hline
+ & Zero-shot citizen & Zero-shot business & Zero-shot unclear & Total \\
+\hline
+Manual citizen & 25 & 9 & 1 & 35 \\
+Manual business & 5 & 15 & 1 & 21 \\
+Manual unclear & 7 & 7 & 20 & 34 \\
+\hline
+Total & 37 & 31 & 22 & 90 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Rows: manual annotation. Columns: zero-shot area collapsed to scope (unclear includes UNCLEAR and OUT\_OF\_SCOPE). Diagonal cells are agreements.
+\item Of the 34 pages annotated unclear, the categoriser placed 7 in a citizen area and 7 in a business area.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

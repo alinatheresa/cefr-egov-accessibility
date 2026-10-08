@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{F1 by CEFR class and language (window level)}
+\label{tab:clf-f1-lang}
+\begin{tabular}{llrrrrr}
+\hline
+Split & Language & A & B1 & B2 & C & Macro-F1 \\
+\hline
+Test & German & 0.84 & 0.60 & 0.69 & 0.63 & 0.69 \\
+ & English & 0.86 & 0.78 & 0.71 & 0.86 & 0.80 \\
+ & Dutch & 0.56 & 0.66 & 0.54 & 0.40 & 0.54 \\
+\hline
+Validation & German & 0.81 & 0.60 & 0.71 & 0.74 & 0.71 \\
+ & English & 0.80 & 0.57 & 0.63 & 0.87 & 0.72 \\
+ & Dutch & 0.59 & 0.64 & 0.59 & 0.40 & 0.56 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Window-level F1 from the selected model's per-language confusion matrices.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

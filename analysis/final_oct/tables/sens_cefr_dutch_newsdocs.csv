@@ -1,0 +1,5 @@
+group,n,A,A_pct,B1,B1_pct,B2,B2_pct,C,C_pct,B2_or_C_pct,median_words
+Dutch news pages (nieuws),770,47,6.10,119,15.45,541,70.26,63,8.18,78.44,352.00
+Dutch document pages (documenten),184,146,79.35,21,11.41,11,5.98,6,3.26,9.24,4.00
+Other Dutch pages,1456,325,22.32,903,62.02,220,15.11,8,0.55,15.66,248.50
+All Dutch pages,2410,518,21.49,1043,43.28,772,32.03,77,3.20,35.23,275.00

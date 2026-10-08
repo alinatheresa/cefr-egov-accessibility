@@ -1,0 +1,17 @@
+country,pred_label,n,median
+germany,A,572,22.0
+germany,B1,18,44.0
+germany,B2,43,32.0
+germany,C,630,30.0
+austria,A,533,23.0
+austria,B1,89,66.0
+austria,B2,237,157.0
+austria,C,2877,334.0
+netherlands,A,518,36.5
+netherlands,B1,1043,286.0
+netherlands,B2,772,372.5
+netherlands,C,77,329.0
+ireland,A,204,46.0
+ireland,B1,505,118.0
+ireland,B2,734,310.0
+ireland,C,145,308.0

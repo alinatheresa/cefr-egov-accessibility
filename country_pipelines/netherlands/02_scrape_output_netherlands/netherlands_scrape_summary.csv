@@ -1,0 +1,4 @@
+category,attempted,success,failures,total_sentences,total_words,avg_sentences_per_url,median_sentences_per_url,avg_words_per_url,median_words_per_url,avg_words_per_sentence
+nl_onderwerpen,2410,2410,0,55351,738295,22.967,20.000,306.346,275.000,13.338
+
+ALL,2410,2410,0,55351,738295,22.967,20.000,306.346,275.000,13.338

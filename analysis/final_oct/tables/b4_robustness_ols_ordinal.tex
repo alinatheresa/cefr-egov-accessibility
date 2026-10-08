@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\small
+\begin{threeparttable}
+\caption{Robustness: OLS on a 1-2-4-8 coding and proportional-odds logit}
+\label{tab:regression-robustness}
+\begin{tabular}{lrrrr}
+\hline
+ & OLS M3a $\beta$ & OLS M3b $\beta$ & Ordinal M3a OR & Ordinal M3b OR \\
+\hline
+Austria & 1.95 [1.78, 2.11]* & 1.87 [1.70, 2.04]* & 6.57 [5.62, 7.69]* & 6.26 [5.33, 7.34]* \\
+Netherlands & -1.85 [-2.03, -1.68]* & -1.86 [-2.04, -1.69]* & 0.59 [0.51, 0.68]* & 0.58 [0.50, 0.67]* \\
+Ireland & -1.17 [-1.35, -0.98]* & -1.19 [-1.38, -1.00]* & 0.89 [0.77, 1.04] & 0.87 [0.75, 1.02] \\
+Business & 0.53 [0.42, 0.65]* &  & 1.56 [1.42, 1.71]* &  \\
+\hline
+N & 7,359 & 7,359 & 7,359 & 7,359 \\
+$R^2$ / McFadden $R^2$ & 0.297 & 0.308 & 0.094 & 0.099 \\
+Brant omnibus $\chi^2$ (df) &  &  & 2,800.8 (8), p $<$0.001 & 2,905.0 (38), p $<$0.001 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Same estimation sample as the main models. OLS outcome: A = 1, B1 = 2, B2 = 4, C = 8; coefficients with 95\% CIs. Ordinal: proportional-odds logit on A $<$ B1 $<$ B2 $<$ C; cumulative odds ratios with 95\% CIs. * p $<$ 0.05. Area coefficients not shown.
+\item Brant test: Wald test that slopes are equal across the three cumulative logits; a significant result means the proportional-odds assumption does not hold.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

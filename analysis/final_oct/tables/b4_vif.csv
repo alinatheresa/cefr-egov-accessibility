@@ -1,0 +1,24 @@
+model,term,VIF
+M3a,Austria,2.098
+M3a,Netherlands,1.939
+M3a,Ireland,1.708
+M3a,Business,1.064
+M3b,Austria,2.214
+M3b,Netherlands,2.014
+M3b,Ireland,1.743
+M3b,A: Travel,1.655
+M3b,C: Vehicles,1.594
+M3b,D: Residence,1.468
+M3b,E: Education or traineeship,1.557
+M3b,F: Healthcare,1.307
+M3b,G: Citizens' and family rights,1.770
+M3b,H: Consumer rights,1.476
+M3b,I: Protection of personal data,1.265
+M3b,"J: Starting, running, closing a business",1.655
+M3b,K: Employees (employer side),1.060
+M3b,L: Taxes,2.351
+M3b,M: Goods,1.714
+M3b,N: Services and qualifications,1.307
+M3b,O: Funding a business,1.117
+M3b,P: Public contracts,1.244
+M3b,Q: Health and safety at work,1.154

@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Corpus overview by country}
+\label{tab:corpus-overview}
+\begin{tabular}{lrrrrr}
+\hline
+ & Germany & Austria & Netherlands & Ireland & Total \\
+\hline
+Pages in corpus & 1,264 & 3,736 & 2,410 & 1,588 & 8,998 \\
+Pages with CEFR label & 1,263 & 3,736 & 2,410 & 1,588 & 8,997 \\
+\hline
+Words per page, median & 26 & 249 & 275 & 196.5 & 202 \\
+Words per page, IQR & 20 to 32 & 97 to 569.25 & 139 to 416 & 87 to 395.25 & 53 to 423 \\
+Pages under 50 words (\%) & 89.5 & 15.7 & 13.7 & 8.6 & 24.3 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Words: \texttt{word\_count} in \texttt{combined\_<country>.csv} (matches of \texttt{\textbackslash w+}), all corpus pages. One German page has no body text and therefore no CEFR label.
+\item Germany's 1,049 leistung pages have a median of 24 words; all of them have fewer than 50 words (Table~\ref{tab:cefr-by-path}).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

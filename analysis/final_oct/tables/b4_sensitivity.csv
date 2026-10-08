@@ -1,0 +1,26 @@
+model,sample,term,label,coef,se,z,p,OR,OR_lo,OR_hi
+M3a,"main (N=7,359)","C(country, Treatment('germany'))[T.austria]",Austria,1.47929,0.0780793,18.946,4.76155e-80,4.38984,3.76693,5.11576
+M3a,"main (N=7,359)","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.621124,0.0742703,-8.36302,6.11327e-17,0.53734,0.464548,0.621539
+M3a,"main (N=7,359)","C(country, Treatment('germany'))[T.ireland]",Ireland,0.223897,0.0798129,2.80527,0.00502738,1.25094,1.06979,1.46276
+M3a,"main (N=7,359)","C(scope, Treatment('citizen'))[T.business]",Business,0.62735,0.0541711,11.5809,5.15035e-31,1.87264,1.68401,2.0824
+M3b,"main (N=7,359)","C(country, Treatment('germany'))[T.austria]",Austria,1.42714,0.0800253,17.8336,3.87355e-71,4.16678,3.56191,4.87436
+M3b,"main (N=7,359)","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.64451,0.0766103,-8.41284,4.00194e-17,0.52492,0.451733,0.609963
+M3b,"main (N=7,359)","C(country, Treatment('germany'))[T.ireland]",Ireland,0.197351,0.0816661,2.41656,0.0156681,1.21817,1.03799,1.42963
+M3a_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.austria]",Austria,1.56251,0.0778468,20.0716,1.30782e-89,4.77077,4.09567,5.55715
+M3a_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.691696,0.0739631,-9.3519,8.60903e-21,0.500726,0.433155,0.578839
+M3a_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.ireland]",Ireland,0.219048,0.0794638,2.75658,0.00584097,1.24489,1.06535,1.45469
+M3a_ii,UNCLEAR kept,"C(scope3, Treatment('citizen'))[T.business]",Business,0.650499,0.054615,11.9106,1.04196e-32,1.9165,1.72195,2.13303
+M3a_ii,UNCLEAR kept,"C(scope3, Treatment('citizen'))[T.unclear]",Unclear,1.24755,0.109526,11.3905,4.66156e-30,3.48182,2.80917,4.31553
+M3b_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.austria]",Austria,1.51275,0.0797569,18.9671,3.19206e-80,4.53922,3.88232,5.30726
+M3b_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.718521,0.0763041,-9.41655,4.66175e-21,0.487473,0.419759,0.56611
+M3b_ii,UNCLEAR kept,"C(country, Treatment('germany'))[T.ireland]",Ireland,0.192482,0.0813112,2.36722,0.0179221,1.21225,1.03367,1.42169
+M3b_ii,UNCLEAR kept,"C(area, Treatment('B'))[T.UNCLEAR]",UNCLEAR,1.33357,0.133148,10.0157,1.30006e-23,3.79456,2.92298,4.92603
+M3a_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.austria]",Austria,1.4549,0.07725,18.8336,4.00441e-79,4.28404,3.68212,4.98435
+M3a_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.636736,0.0737674,-8.63168,6.04557e-18,0.529016,0.457802,0.611308
+M3a_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.ireland]",Ireland,0.240644,0.0793369,3.0332,0.00241978,1.27207,1.08888,1.48608
+M3a_iii,"UNCLEAR kept, no rule pages","C(scope3, Treatment('citizen'))[T.business]",Business,0.620492,0.0540566,11.4786,1.69075e-30,1.85984,1.67287,2.06771
+M3a_iii,"UNCLEAR kept, no rule pages","C(scope3, Treatment('citizen'))[T.unclear]",Unclear,0.165279,0.13803,1.19742,0.231145,1.17972,0.900095,1.54622
+M3b_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.austria]",Austria,1.40213,0.0791823,17.7076,3.66527e-70,4.06383,3.47965,4.74609
+M3b_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.netherlands]",Netherlands,-0.662376,0.0760659,-8.70792,3.09502e-18,0.515625,0.444208,0.598523
+M3b_iii,"UNCLEAR kept, no rule pages","C(country, Treatment('germany'))[T.ireland]",Ireland,0.214809,0.0811442,2.64725,0.00811488,1.23963,1.05735,1.45332
+M3b_iii,"UNCLEAR kept, no rule pages","C(area, Treatment('B'))[T.UNCLEAR]",UNCLEAR,0.248476,0.156608,1.58661,0.112601,1.28207,0.943206,1.74268

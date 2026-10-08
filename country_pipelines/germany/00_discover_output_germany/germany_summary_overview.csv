@@ -1,0 +1,18 @@
+Sitemap URL,Number of URLs Found
+https://verwaltung.bund.de/leistungsverzeichnis/sitemap_de.xml,5386
+https://verwaltung.bund.de/leistungsverzeichnis/sitemap_en.xml,5386
+https://verwaltung.bund.de/leistungsverzeichnis/sitemap_index.xml,10772
+
+Language,Category,Count
+DE,de_lagen,119
+DE,de_rechte_pflichten,84
+DE,de_hilfs-problemloesungsdienste,8
+DE,de_leistung,5175
+EN,en_lagen,119
+EN,en_rechte_pflichten,84
+EN,en_hilfs-problemloesungsdienste,8
+EN,en_leistung,5175
+
+TOTAL_DE,,5386
+TOTAL_EN,,5386
+TOTAL_ALL,,10772

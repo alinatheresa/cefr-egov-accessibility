@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{threeparttable}
+\caption{Sensitivity of the country and scope odds ratios to the treatment of UNCLEAR pages}
+\label{tab:regression-sensitivity}
+\begin{tabular}{lrrrrrr}
+\hline
+ & M3a (i) & M3a (ii) & M3a (iii) & M3b (i) & M3b (ii) & M3b (iii) \\
+\hline
+Austria & 4.39 [3.77, 5.12]* & 4.77 [4.10, 5.56]* & 4.28 [3.68, 4.98]* & 4.17 [3.56, 4.87]* & 4.54 [3.88, 5.31]* & 4.06 [3.48, 4.75]* \\
+Netherlands & 0.54 [0.46, 0.62]* & 0.50 [0.43, 0.58]* & 0.53 [0.46, 0.61]* & 0.52 [0.45, 0.61]* & 0.49 [0.42, 0.57]* & 0.52 [0.44, 0.60]* \\
+Ireland & 1.25 [1.07, 1.46]* & 1.24 [1.07, 1.45]* & 1.27 [1.09, 1.49]* & 1.22 [1.04, 1.43]* & 1.21 [1.03, 1.42]* & 1.24 [1.06, 1.45]* \\
+Business & 1.87 [1.68, 2.08]* & 1.92 [1.72, 2.13]* & 1.86 [1.67, 2.07]* &  &  &  \\
+Unclear &  & 3.48 [2.81, 4.32]* & 1.18 [0.90, 1.55] &  & 3.79 [2.92, 4.93]* & 1.28 [0.94, 1.74] \\
+\hline
+N & 7,359 & 8,391 & 7,642 & 7,359 & 8,391 & 7,642 \\
+McFadden $R^2$ & 0.116 & 0.159 & 0.116 & 0.128 & 0.170 & 0.127 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item Binary logit of harder (B2 or C) versus easier (A or B1): odds ratios with Wald 95\% CIs; * p $<$ 0.05. M3a: country + scope; M3b: country + 17 SDGR areas (area coefficients not shown).
+\item (i) Main specification: UNCLEAR and OUT\_OF\_SCOPE pages excluded. (ii) UNCLEAR pages kept as their own scope category (M3a) or area level (M3b). (iii) As (ii) without the 749 Austrian ``Leben in der Gemeinde'' template pages routed to UNCLEAR by the deterministic rule.
+\item AIC is not comparable across columns because the samples differ.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

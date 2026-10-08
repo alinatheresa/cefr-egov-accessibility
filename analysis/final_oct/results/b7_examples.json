@@ -1,0 +1,100 @@
+{
+  "area_choice": {
+    "area": "L",
+    "eligible": {
+      "A": {
+        "austria": 258,
+        "germany": 87
+      },
+      "B": {
+        "austria": 286,
+        "germany": 131
+      },
+      "C": {
+        "austria": 230,
+        "germany": 59
+      },
+      "F": {
+        "austria": 71,
+        "germany": 56
+      },
+      "H": {
+        "austria": 161,
+        "germany": 68
+      },
+      "J": {
+        "austria": 84,
+        "germany": 165
+      },
+      "L": {
+        "austria": 469,
+        "germany": 257
+      },
+      "M": {
+        "austria": 94,
+        "germany": 163
+      },
+      "N": {
+        "austria": 33,
+        "germany": 97
+      }
+    }
+  },
+  "area_germany": {
+    "url": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99603004261000",
+    "E": 2.5859,
+    "median": 2.5859
+  },
+  "area_austria": {
+    "url": "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/visum_fuer_oesterreich/1/Seite.3550100",
+    "E": 3.6433999999999997,
+    "median": 3.6433999999999997
+  },
+  "all_germany": {
+    "url": "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99603004261000",
+    "E": 2.5859,
+    "median": 2.5859
+  },
+  "all_austria": {
+    "url": "https://www.oesterreich.gv.at/de/themen/bildung_und_ausbildung/lehre-und-berufsbildende-schulen/Seite.333300",
+    "E": 3.4650999999999996,
+    "median": 3.4650999999999996
+  },
+  "unclear_to_citizen": [
+    {
+      "url": "https://www.rijksoverheid.nl/onderwerpen/voortgezet-onderwijs/nieuws/2025/12/18/kabinet-genoeg-en-goed-toegeruste-schoolleiders-en-leraren-blijft-prioriteit",
+      "country": "netherlands",
+      "assigned_area": "E"
+    },
+    {
+      "url": "https://www.oesterreich.gv.at/de/themen/reisen_und_freizeit/freizeit-in-der-natur/fischen/1/Seite.3170025",
+      "country": "austria",
+      "assigned_area": "A"
+    },
+    {
+      "url": "https://www.rijksoverheid.nl/onderwerpen/buitenlandse-inmenging-en-beinvloeding/nieuws/2025/05/21/mivd-nederland-ook-doelwit-spionagecampagne-russische-hackers",
+      "country": "netherlands",
+      "assigned_area": "A"
+    },
+    {
+      "url": "https://www.oesterreich.gv.at/de/themen/reisen_und_freizeit/freizeit-in-der-natur/fischen/9/Seite.3170075",
+      "country": "austria",
+      "assigned_area": "H"
+    },
+    {
+      "url": "https://www.rijksoverheid.nl/onderwerpen/parlement/nieuws/2025/06/06/tweede-kamerverkiezing-officieel-vastgesteld-op-woensdag-29-oktober-2025",
+      "country": "netherlands",
+      "assigned_area": "H"
+    },
+    {
+      "url": "https://www.gov.ie/en/department-of-foreign-affairs/services/visas/",
+      "country": "ireland",
+      "assigned_area": "A"
+    },
+    {
+      "url": "https://www.rijksoverheid.nl/onderwerpen/voorbehouden-handelingen/toezicht-medisch-handelen-zorgverleners",
+      "country": "netherlands",
+      "assigned_area": "F"
+    }
+  ]
+}
