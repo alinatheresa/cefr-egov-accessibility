@@ -75,3 +75,4 @@ analysis/regression/regression_coefs.csv
 analysis/regression/regression_comparison.csv
 analysis/readability/readability_*.csv
 !analysis/readability/readability_per_page.csv
+*.tex
